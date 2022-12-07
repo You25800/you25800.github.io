@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Elasticsearch 安装 &amp; 使用 | 首页</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/img/logo.png">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    
+    <link rel="preload" href="/assets/css/0.styles.b48c08a3.css" as="style"><link rel="preload" href="/assets/js/app.bd55d1b3.js" as="script"><link rel="preload" href="/assets/js/2.73059d0e.js" as="script"><link rel="preload" href="/assets/js/3.a66c7aae.js" as="script"><link rel="prefetch" href="/assets/js/10.d4d9a18a.js"><link rel="prefetch" href="/assets/js/11.50c339e5.js"><link rel="prefetch" href="/assets/js/12.54632f9f.js"><link rel="prefetch" href="/assets/js/13.a2d91790.js"><link rel="prefetch" href="/assets/js/14.b2960423.js"><link rel="prefetch" href="/assets/js/15.3436a9fb.js"><link rel="prefetch" href="/assets/js/16.0322275e.js"><link rel="prefetch" href="/assets/js/17.5e397fe1.js"><link rel="prefetch" href="/assets/js/18.c3644c7e.js"><link rel="prefetch" href="/assets/js/19.d2db6cb6.js"><link rel="prefetch" href="/assets/js/20.ae6e4acb.js"><link rel="prefetch" href="/assets/js/21.68048946.js"><link rel="prefetch" href="/assets/js/22.c90b31ab.js"><link rel="prefetch" href="/assets/js/23.ad428bdd.js"><link rel="prefetch" href="/assets/js/4.d17bdff9.js"><link rel="prefetch" href="/assets/js/5.47ed8cca.js"><link rel="prefetch" href="/assets/js/6.a6e551e9.js"><link rel="prefetch" href="/assets/js/7.29628ff8.js"><link rel="prefetch" href="/assets/js/8.d8de5f7d.js"><link rel="prefetch" href="/assets/js/9.fa70b38e.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.b48c08a3.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/img/logo.png" alt="首页" class="logo"> <span class="site-name can-hide">首页</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/database/lvmeng/" class="nav-link">
+  律盟
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="golang" class="dropdown-title"><span class="title">golang</span> <span class="arrow down"></span></button> <button type="button" aria-label="golang" class="mobile-dropdown-title"><span class="title">golang</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/database/mongodb/" class="nav-link">
+  
+</a></li><li class="dropdown-item"><!----> <a href="/database/mysql/" class="nav-link">
+  beego
+</a></li><li class="dropdown-item"><!----> <a href="/database/redis/" class="nav-link">
+  Redis
+</a></li><li class="dropdown-item"><!----> <a href="/database/elasticsearch/" class="nav-link router-link-active">
+  Elasticsearch
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="数据库" class="dropdown-title"><span class="title">数据库</span> <span class="arrow down"></span></button> <button type="button" aria-label="数据库" class="mobile-dropdown-title"><span class="title">数据库</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/database/mongodb/" class="nav-link">
+  Mongodb
+</a></li><li class="dropdown-item"><!----> <a href="/database/mysql/" class="nav-link">
+  Mysql
+</a></li><li class="dropdown-item"><!----> <a href="/database/redis/" class="nav-link">
+  Redis
+</a></li><li class="dropdown-item"><!----> <a href="/database/elasticsearch/" class="nav-link router-link-active">
+  Elasticsearch
+</a></li></ul></div></div><div class="nav-item"><a href="https://google.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  开发工具
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Language Menu" class="dropdown-title"><span class="title">Languages</span> <span class="arrow down"></span></button> <button type="button" aria-label="Language Menu" class="mobile-dropdown-title"><span class="title">Languages</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/guide/" class="nav-link">
+  Chinese
+</a></li><li class="dropdown-item"><!----> <a href="/language/japanese/" class="nav-link">
+  Japanese
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/database/lvmeng/" class="nav-link">
+  律盟
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="golang" class="dropdown-title"><span class="title">golang</span> <span class="arrow down"></span></button> <button type="button" aria-label="golang" class="mobile-dropdown-title"><span class="title">golang</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/database/mongodb/" class="nav-link">
+  
+</a></li><li class="dropdown-item"><!----> <a href="/database/mysql/" class="nav-link">
+  beego
+</a></li><li class="dropdown-item"><!----> <a href="/database/redis/" class="nav-link">
+  Redis
+</a></li><li class="dropdown-item"><!----> <a href="/database/elasticsearch/" class="nav-link router-link-active">
+  Elasticsearch
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="数据库" class="dropdown-title"><span class="title">数据库</span> <span class="arrow down"></span></button> <button type="button" aria-label="数据库" class="mobile-dropdown-title"><span class="title">数据库</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/database/mongodb/" class="nav-link">
+  Mongodb
+</a></li><li class="dropdown-item"><!----> <a href="/database/mysql/" class="nav-link">
+  Mysql
+</a></li><li class="dropdown-item"><!----> <a href="/database/redis/" class="nav-link">
+  Redis
+</a></li><li class="dropdown-item"><!----> <a href="/database/elasticsearch/" class="nav-link router-link-active">
+  Elasticsearch
+</a></li></ul></div></div><div class="nav-item"><a href="https://google.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  开发工具
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Language Menu" class="dropdown-title"><span class="title">Languages</span> <span class="arrow down"></span></button> <button type="button" aria-label="Language Menu" class="mobile-dropdown-title"><span class="title">Languages</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/guide/" class="nav-link">
+  Chinese
+</a></li><li class="dropdown-item"><!----> <a href="/language/japanese/" class="nav-link">
+  Japanese
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/database/elasticsearch/" aria-current="page" class="sidebar-link">概述</a></li><li><a href="/database/elasticsearch/es安装与使用.html" class="active sidebar-link">Elasticsearch 安装 &amp; 使用</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/database/elasticsearch/es安装与使用.html#下载软件" class="sidebar-link">下载软件</a></li><li class="sidebar-sub-header"><a href="/database/elasticsearch/es安装与使用.html#安装软件" class="sidebar-link">安装软件</a></li><li class="sidebar-sub-header"><a href="/database/elasticsearch/es安装与使用.html#问题解决" class="sidebar-link">问题解决</a></li></ul></li><li><a href="/database/elasticsearch/kibana安装与使用.html" class="sidebar-link">Kibana 安装&amp;使用</a></li><li><a href="/database/elasticsearch/基础功能.html" class="sidebar-link">基础功能</a></li><li><a href="/database/elasticsearch/批量操作.html" class="sidebar-link">文档批量操作</a></li><li><a href="/database/elasticsearch/ES检索原理分析.html" class="sidebar-link">ES检索原理分析</a></li><li><a href="/database/elasticsearch/ES高级查询.html" class="sidebar-link">高级查询</a></li><li><a href="/database/elasticsearch/索引模版.html" class="sidebar-link">索引模版</a></li><li><a href="/database/elasticsearch/GOLANG操作ES.html" class="sidebar-link">GOLANG操作ES</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="elasticsearch-安装-使用"><a href="#elasticsearch-安装-使用" class="header-anchor">#</a> <strong>Elasticsearch</strong> <strong>安装</strong> <strong>&amp;</strong> <strong>使用</strong></h1> <p>本章是根据尚硅谷教学视频编写 <a href="https://www.bilibili.com/video/BV1hh411D7sb/?spm_id_from=333.337.search-card.all.click&amp;vd_source=c2c3977953334eb68fd28f89418ceaa6" target="_blank" rel="noopener noreferrer">https://www.bilibili.com/video/BV1hh411D7sb/?spm_id_from=333.337.search-card.all.click&amp;vd_source=c2c3977953334eb68fd28f89418ceaa6<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <h2 id="下载软件"><a href="#下载软件" class="header-anchor">#</a> <strong>下载软件</strong></h2> <p>Elasticsearch 的官方地址：https://www.elastic.co/cn/</p> <p>Elasticsearch 最新的版本是 8.2.3（截止 2022.06.15），我们选择略早的 8.1.0 版本</p> <p>下载地址：https://www.elastic.co/cn/downloads/past-releases#elasticsearch</p> <img src="/assets/img/download.19a41b83.png" alt="image-20220927135705960" style="zoom:33%;"> <p>可以根据情况自行选择不同操作系统的版本。</p> <h2 id="安装软件"><a href="#安装软件" class="header-anchor">#</a> 安装软件</h2> <p>针对新版ES软件的特性与应用，所以采用Linux集群配置</p> <ol><li><p>集群规划</p> <p>为了演示软件的使用，我们这里准备三台 linux 虚拟机，用于配置 Elasticsearch 集群。</p> <p>启动集群后，每台虚拟机的进程如下：</p> <table><thead><tr><th>主机名</th> <th>linux1</th> <th>linux2</th> <th>linux3</th></tr></thead> <tbody><tr><td>进程名</td> <td>Elasticsearch(es-node-1)</td> <td>Elasticsearch(es-node-2)</td> <td>Elasticsearch(es-node-3)</td></tr></tbody></table> <p>Linux 系统环境配置请参考之前课程内容。这里我们给三台虚拟机搭建 ES 集群，集群</p> <p>中-节点名称依次为 es-node-1，es-node-2，es-node-3</p></li> <li><p>将压缩包 elasticsearch-8.1.0-linux-x86_64.tar.gz 上传到虚拟机中</p> <p>解压缩文件到自定义路径，笔者解压路径为：/opt/module,解压后，软件路径为：</p> <p>/opt/module/elasticsearch-8.1.0</p> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># 切换目录</span>
+<span class="token builtin class-name">cd</span> software
+<span class="token comment"># 解压缩</span>
+<span class="token function">tar</span> <span class="token parameter variable">-zxvf</span> elasticsearch-8.1.0-linux-x86_64.tar.gz <span class="token parameter variable">-C</span> /opt/module
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>解压后的 Elasticsearch 的目录结构如下</p> <img src="/elasticsearch/1.png" alt="image-20220927135705960" style="zoom:100%;"> <table><thead><tr><th>目录</th> <th>含义</th></tr></thead> <tbody><tr><td>bin</td> <td>可执行脚本目录</td></tr> <tr><td>config</td> <td>配置目录</td></tr> <tr><td>jdk</td> <td>内置JDK目录</td></tr> <tr><td>lib</td> <td>类库</td></tr> <tr><td>logs</td> <td>日志目录</td></tr> <tr><td>modules</td> <td>模块目录</td></tr> <tr><td>plugins</td> <td>插件目录</td></tr></tbody></table></li> <li><p>当前安装 ES 版本为 8.1.0，自带 JDK，所以当前 Linux 虚拟机节点无需配置 Java 环境</p></li> <li><p>创建linux新用户es，数据文件，证书目录，并修改Elasticsearch文件拥有者</p> <p><code>由于es不允许root用户操作，所以需要创建新用户</code></p> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># 新增es用户</span>
+<span class="token function">useradd</span> es
+<span class="token comment"># 为es用户设置密码</span>
+<span class="token function">passwd</span> es
+
+<span class="token comment"># 创建数据文件目录</span>
+<span class="token function">mkdir</span> /opt/module/elasticsearch-8.1.0/data
+<span class="token comment"># 创建证书目录</span>
+<span class="token function">mkdir</span> /opt/module/elasticsearch-8.1.0/config/certs
+<span class="token comment"># 切换目录</span>
+<span class="token builtin class-name">cd</span> /opt/module/elasticsearch-8.1.0
+
+<span class="token comment"># 修改文件拥有者</span>
+<span class="token function">chown</span> <span class="token parameter variable">-R</span> es:es /opt/module/elasticsearch-8.1.0
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br></div></div></li> <li><p>在第一台服务器节点es-node-1设置集群多节点通信密钥</p> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># 切换用户</span>
+<span class="token function">su</span> es
+
+<span class="token comment"># 签发 ca 证书，过程中需按两次回车键</span>
+bin/elasticsearch-certutil ca
+<span class="token comment"># 用 ca 证书签发节点证书，过程中需按三次回车键</span>
+bin/elasticsearch-certutil cert <span class="token parameter variable">--ca</span> elastic-stack-ca.p12
+
+<span class="token comment"># 将生成的证书文件移动到 config/certs 目录中</span>
+<span class="token function">mv</span> elastic-stack-ca.p12 elastic-certificates.p12 config/certs
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div></li> <li><p>在第一台服务器节点es-node-1设置集群多节点HTTP证书</p> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># 签发 Https 证书</span>
+bin/elasticsearch-certutil http
+<span class="token comment"># 以下是每次要求输入时，需要输入的内容</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><img src="/assets/img/3.d3c9febe.png" alt="image-20220927135705960" style="zoom:66%;"> <img src="/assets/img/2.36ff7570.png" alt="image-20220927135705960" style="zoom:66%;"> <p>指定证书路径</p> <img src="/assets/img/4.a939018a.png" alt="image-20220927135705960" style="zoom:66%;"> <p>无需输入密码</p> <img src="/assets/img/image-20220927153941132.4288f29b.png" alt="image-20220927153941132" style="zoom:67%;"> <p>设置证书失效时间</p> <img src="/assets/img/image-20220927154149016.333c2d82.png" alt="image-20220927154149016" style="zoom:67%;"> <p>无需每个节点配置证书</p> <img src="/assets/img/image-20220927154230580.1ae15dbd.png" alt="image-20220927154230580" style="zoom:67%;"> <p>输出连接到第一个节点的所有主机名</p> <img src="/assets/img/image-20220927154313380.d1fbfc1c.png" alt="image-20220927154313380" style="zoom:67%;"> <p>输出连接到第一个基点的所有主机 <strong>IP</strong> 地址</p> <img src="/assets/img/image-20220927154437177.51c574e1.png" alt="image-20220927154437177" style="zoom:67%;"> <p>不改变证书选项配置</p> <img src="/assets/img/image-20220927154528494.864442e1.png" alt="image-20220927154528494" style="zoom:67%;"> <p>不给证书加密，按键输入两次回车</p> <img src="/assets/img/image-20220927154618352.41988d1c.png" alt="image-20220927154618352" style="zoom:67%;"> <p>解压刚刚生成的zip包</p> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># 解压文件</span>
+<span class="token function">unzip</span> elasticsearch-ssl-http.zip
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>将解压后的证书文件移动到config/certs目录中</p> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># 移动文件</span>
+<span class="token function">mv</span> elasticsearch/http.p12 kibana/elasticsearch-ca.pem config/certs
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div></li> <li><p>修改住配置文件：config/elasticsearch.yml</p> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># 设置 ES 集群名称</span>
+cluster.name: es-cluster
+<span class="token comment"># 设置集群中当前节点名称</span>
+node.name: es-node-1
+<span class="token comment"># 设置数据，日志文件路径</span>
+path.data: /opt/module/elasticsearch-8.1.0/data
+path.logs: /opt/module/elasticsearch-8.1.0/log
+<span class="token comment"># 设置网络访问节点</span>
+network.host: linux1
+<span class="token comment"># 设置网络访问端口</span>
+http.port: <span class="token number">9200</span>
+<span class="token comment"># 初始节点</span>
+discovery.seed_hosts: <span class="token punctuation">[</span><span class="token string">&quot;linux1&quot;</span><span class="token punctuation">]</span>
+<span class="token comment"># 安全认证</span>
+xpack.security.enabled: <span class="token boolean">true</span>
+xpack.security.enrollment.enabled: <span class="token boolean">true</span>
+xpack.security.http.ssl:
+ enabled: <span class="token boolean">true</span>
+ keystore.path: /opt/module/elasticsearch-8.1.0/config/certs/http.p12
+ truststore.path: /opt/module/elasticsearch-8.1.0/config/certs/http.p12
+xpack.security.transport.ssl:
+ enabled: <span class="token boolean">true</span>
+ verification_mode: certificate
+ keystore.path:
+/opt/module/elasticsearch-8.1.0/config/certs/elastic-certificates.p12
+ truststore.path:
+/opt/module/elasticsearch-8.1.0/config/certs/elastic-certificates.p12
+<span class="token comment"># 此处需注意，es-node-1 为上面配置的节点名称</span>
+cluster.initial_master_nodes: <span class="token punctuation">[</span><span class="token string">&quot;es-node-1&quot;</span><span class="token punctuation">]</span>
+http.host: <span class="token punctuation">[</span>_local_, _site_<span class="token punctuation">]</span>
+ingest.geoip.downloader.enabled: <span class="token boolean">false</span>
+xpack.security.http.ssl.client_authentication: none
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br></div></div></li> <li><p>启动ES软件</p> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># 启动ES软件</span>
+bin/elasticsearch
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div></li></ol> <p>第一次成功启动后，会显示密码，请记住，访问时需要。只有第一次才有！</p> <img src="/assets/img/image-20220927162802262.1d6105aa.png" alt="image-20220927162802262" style="zoom:67%;"> <p><font color="red">上面图形内容因为涉及到多节点集群配置以及kibana配置，所以极其重要！！！</font></p> <p><font color="red">如果没有出现上面图片，出现下面图片也可以按照指示方式进行配置。</font></p> <img src="/assets/img/image-20220927163303119.cd72c1c4.png" alt="image-20220927163303119" style="zoom:50%;"> <p><img src="/assets/img/image-20220927163357772.9578d4f5.png" alt="image-20220927163357772"></p> <p>注意：9300端口为Elasticsearch集群间组件的通信端口，9200端口为浏览器访问的http协议RESTFUL端口。</p> <ol start="9"><li><p>访问服务器节点https://虚拟机地址:9200</p> <p>因为配置了安全协议，所以使用https协议进行访问，但由于证书是自己生成的，并不可靠，所以会有安全提示</p> <img src="/assets/img/image-20220927163743685.f0134f09.png" alt="image-20220927163743685" style="zoom:50%;"> <p>选择继续或在该页面直接敲thisisunsafe即可</p> <img src="/assets/img/image-20220927163905182.eff6ff22.png" alt="image-20220927163905182" style="zoom:50%;"> <p>输入账号，密码登陆即可</p> <img src="/assets/img/image-20220927163951266.7aed088c.png" alt="image-20220927163951266" style="zoom:50%;"></li> <li><p>修改集群中的其他节点配置文件：config/elasticsearch.yml</p> <p>linux2: 证书直接拷贝，其他步骤完全相同，配置文件中修改如下内容即可</p> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># 设置节点名称</span>
+node.name: es-node-2
+<span class="token comment"># 设置网络访问主机</span>
+network.host: linux2
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>linux3:证书直接拷贝，其他步骤完全相同，配置文件中修改如下内容即可</p> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># 设置节点名称</span>
+node.name: es-node-3
+<span class="token comment"># 设置网络访问主机</span>
+network.host: linux3
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div></li> <li><p>依次启动集群的三台服务器节点, <font color="red">不要忘记切换用户后再启动</font></p> <p>Linux1、linux2、linux3:</p> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># 后台启动服务</span>
+bin/elasticsearch <span class="token parameter variable">-d</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div></li></ol> <h2 id="问题解决"><a href="#问题解决" class="header-anchor">#</a> 问题解决</h2> <ul><li><p>Elasticsearch 是使用 java 开发的，8.1 版本的 ES 需要 JDK17 及以上版本。默认安装包 中带有 JDK 环境，如果系统配置 ES_JAVA_HOME 环境变量，那么会采用系统配置的 JDK。如果没有配置该环境变量，ES 会使用自带捆绑的 JDK。虽然自带的 JDK 是 ES 软件推荐的 Java 版本，但一般建议使用系统配置的 JDK。</p></li> <li><p>Windows 环境中出现下面的错误信息，是因为开启了 SSL 认证：</p> <img src="/assets/img/image-20220927164758235.b8181237.png" alt="image-20220927164758235" style="zoom:50%;"> <p>修改 config/elasticsearch.yml 文件，将 enabled 的值修改为 false</p> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># Enable encryption for HTTP API client connections, such as Kibana, Logstash,</span>
+and Agents
+xpack.security.http.ssl:
+ enabled: <span class="token boolean">false</span>
+ keystore.path: certs/http.p12
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div></li> <li><p>启动成功后，如果访问 localhost:9200 地址后，弹出登录窗口</p> <p>第一次启动时，因为开启了密码验证模式，在启动窗口中会显示输入账号和密码。如果 没有注意到或没有找到账号密码，可以设置免密登录：</p> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># Enable security features</span>
+xpack.security.enabled: <span class="token boolean">false</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div></li> <li><p>双击启动窗口闪退，通过路径访问追踪错误，如果是“空间不足”，请修改config/jvm.options 配置文件</p> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># 设置 JVM 初始内存为 1G。此值可以设置与-Xmx 相同，以避免每次垃圾回收完成后 JVM 重新分配</span>
+内存
+<span class="token comment"># Xms represents the initial size of total heap space</span>
+<span class="token comment"># 设置 JVM 最大可用内存为 1G</span>
+<span class="token comment"># Xmx represents the maximum size of total heap space</span>
+<span class="token parameter variable">-Xms4g</span>
+<span class="token parameter variable">-Xmx4g</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div></li> <li><p>启动后，如果密码忘记了，怎么办？可以采用指令重置密码</p> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># 使用 es 用户，执行指令，重置 elastic 用户密码</span>
+bin/elasticsearch-reset-password <span class="token parameter variable">-u</span> elastic
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><img src="/assets/img/image-20220927165222266.05275cd2.png" alt="image-20220927165222266" style="zoom:50%;"> <p>如果只启动单一节点，此操作可能会失败，至少启动 2 个节点，测试成功</p></li></ul></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/database/elasticsearch/" class="prev router-link-active">
+        概述
+      </a></span> <span class="next"><a href="/database/elasticsearch/kibana安装与使用.html">
+        Kibana 安装&amp;使用
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.bd55d1b3.js" defer></script><script src="/assets/js/2.73059d0e.js" defer></script><script src="/assets/js/3.a66c7aae.js" defer></script>
+  </body>
+</html>
