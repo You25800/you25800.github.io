@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-fc4f5390","path":"/database/mongodb/","title":"我是标题1","lang":"en-US","frontmatter":{},"headers":[{"level":2,"title":"标题2","slug":"标题2","link":"#标题2","children":[]}],"git":{"updatedTime":1664242793000,"contributors":[{"name":"thomas","email":"thomas@deepscm.com","commits":1}]},"filePathRelative":"database/mongodb/README.md"}');export{e as data};
