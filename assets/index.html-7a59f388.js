@@ -1,1 +1,0 @@
-const a=JSON.parse('{"key":"v-21ba2ec8","path":"/database/mysql/","title":"Mysql","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1684585042000,"contributors":[{"name":"thomas","email":"thomas@deepscm.com","commits":2}]},"filePathRelative":"database/mysql/README.md"}');export{a as data};

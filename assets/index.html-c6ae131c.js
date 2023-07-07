@@ -1,1 +1,0 @@
-const a=JSON.parse('{"key":"v-380c630d","path":"/database/elasticsearch/","title":"概述","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1669898765000,"contributors":[{"name":"thomas","email":"thomas@deepscm.com","commits":2}]},"filePathRelative":"database/elasticsearch/README.md"}');export{a as data};
