@@ -1,0 +1,46 @@
+import{_ as D,o as n,c as t,O as y,Q as C,z as s,a as o,D as i,G as e,B as a,R as c}from"./chunks/framework.318fa179.js";const F="/assets/box-decoration-break-block.c9630489.png",A="/assets/box-decoration-break-block-slice.10926b13.png";const d={},b=l=>(y("data-v-11ef6faf"),l=l(),C(),l),_={class:"base"},h=b(()=>s("span",{class:"example"},[o("The"),s("br"),o("quick"),s("br"),o("orange fox")],-1)),x=[h];function m(l,r){return n(),t("div",_,x)}const u=D(d,[["render",m],["__scopeId","data-v-11ef6faf"]]),f=c("",5),k=s("div",{class:"language-vue vp-adaptive-theme"},[s("span",{class:"lang"},"vue"),s("pre",{"v-pre":"",class:"shiki material-theme-palenight"},[s("code",null,[s("span",{class:"line"},[s("span",{style:{color:"#89DDFF"}},"<"),s("span",{style:{color:"#F07178"}},"template"),s("span",{style:{color:"#89DDFF"}},">")]),o(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#A6ACCD"}},"  "),s("span",{style:{color:"#89DDFF"}},"<"),s("span",{style:{color:"#F07178"}},"div"),s("span",{style:{color:"#89DDFF"}}," "),s("span",{style:{color:"#C792EA"}},"class"),s("span",{style:{color:"#89DDFF"}},"="),s("span",{style:{color:"#89DDFF"}},'"'),s("span",{style:{color:"#C3E88D"}},"base"),s("span",{style:{color:"#89DDFF"}},'"'),s("span",{style:{color:"#89DDFF"}},">")]),o(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#A6ACCD"}},"    "),s("span",{style:{color:"#89DDFF"}},"<"),s("span",{style:{color:"#F07178"}},"span"),s("span",{style:{color:"#89DDFF"}}," "),s("span",{style:{color:"#C792EA"}},"class"),s("span",{style:{color:"#89DDFF"}},"="),s("span",{style:{color:"#89DDFF"}},'"'),s("span",{style:{color:"#C3E88D"}},"example"),s("span",{style:{color:"#89DDFF"}},'"'),s("span",{style:{color:"#89DDFF"}},">"),s("span",{style:{color:"#A6ACCD"}},"The"),s("span",{style:{color:"#89DDFF"}},"<"),s("span",{style:{color:"#F07178"}},"br"),s("span",{style:{color:"#89DDFF"}}," />"),s("span",{style:{color:"#A6ACCD"}},"quick"),s("span",{style:{color:"#89DDFF"}},"<"),s("span",{style:{color:"#F07178"}},"br"),s("span",{style:{color:"#89DDFF"}}," />"),s("span",{style:{color:"#A6ACCD"}},"orange fox"),s("span",{style:{color:"#89DDFF"}},"</"),s("span",{style:{color:"#F07178"}},"span"),s("span",{style:{color:"#89DDFF"}},">")]),o(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#A6ACCD"}},"  "),s("span",{style:{color:"#89DDFF"}},"</"),s("span",{style:{color:"#F07178"}},"div"),s("span",{style:{color:"#89DDFF"}},">")]),o(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#89DDFF"}},"</"),s("span",{style:{color:"#F07178"}},"template"),s("span",{style:{color:"#89DDFF"}},">")]),o(`
+`),s("span",{class:"line"}),o(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#89DDFF"}},"<"),s("span",{style:{color:"#F07178"}},"style"),s("span",{style:{color:"#A6ACCD"}}," "),s("span",{style:{color:"#C792EA"}},"lang"),s("span",{style:{color:"#89DDFF"}},"="),s("span",{style:{color:"#89DDFF"}},'"'),s("span",{style:{color:"#C3E88D"}},"scss"),s("span",{style:{color:"#89DDFF"}},'"'),s("span",{style:{color:"#A6ACCD"}}," "),s("span",{style:{color:"#C792EA"}},"scoped"),s("span",{style:{color:"#89DDFF"}},">")]),o(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#89DDFF"}},"."),s("span",{style:{color:"#FFCB6B"}},"base"),s("span",{style:{color:"#A6ACCD"}}," "),s("span",{style:{color:"#89DDFF"}},"{")]),o(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#A6ACCD"}},"  "),s("span",{style:{color:"#89DDFF"}},"."),s("span",{style:{color:"#FFCB6B"}},"example"),s("span",{style:{color:"#A6ACCD"}}," "),s("span",{style:{color:"#89DDFF"}},"{")]),o(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#A6ACCD"}},"    "),s("span",{style:{color:"#B2CCD6"}},"background"),s("span",{style:{color:"#89DDFF"}},":"),s("span",{style:{color:"#A6ACCD"}}," "),s("span",{style:{color:"#82AAFF"}},"linear-gradient"),s("span",{style:{color:"#89DDFF"}},"("),s("span",{style:{color:"#A6ACCD","font-style":"italic"}},"to"),s("span",{style:{color:"#A6ACCD"}}," bottom right"),s("span",{style:{color:"#89DDFF"}},","),s("span",{style:{color:"#A6ACCD"}}," yellow"),s("span",{style:{color:"#89DDFF"}},","),s("span",{style:{color:"#A6ACCD"}}," green"),s("span",{style:{color:"#89DDFF"}},");")]),o(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#A6ACCD"}},"    "),s("span",{style:{color:"#B2CCD6"}},"box-shadow"),s("span",{style:{color:"#89DDFF"}},":"),s("span",{style:{color:"#A6ACCD"}}," "),s("span",{style:{color:"#F78C6C"}},"8px"),s("span",{style:{color:"#A6ACCD"}}," "),s("span",{style:{color:"#F78C6C"}},"8px"),s("span",{style:{color:"#A6ACCD"}}," "),s("span",{style:{color:"#F78C6C"}},"10px"),s("span",{style:{color:"#A6ACCD"}}," "),s("span",{style:{color:"#F78C6C"}},"0px"),s("span",{style:{color:"#A6ACCD"}}," deeppink, "),s("span",{style:{color:"#F78C6C"}},"-5px"),s("span",{style:{color:"#A6ACCD"}}," "),s("span",{style:{color:"#F78C6C"}},"-5px"),s("span",{style:{color:"#A6ACCD"}}," "),s("span",{style:{color:"#F78C6C"}},"5px"),s("span",{style:{color:"#A6ACCD"}}," "),s("span",{style:{color:"#F78C6C"}},"0px"),s("span",{style:{color:"#A6ACCD"}}," blue,")]),o(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#A6ACCD"}},"      "),s("span",{style:{color:"#F78C6C"}},"5px"),s("span",{style:{color:"#A6ACCD"}}," "),s("span",{style:{color:"#F78C6C"}},"5px"),s("span",{style:{color:"#A6ACCD"}}," "),s("span",{style:{color:"#F78C6C"}},"15px"),s("span",{style:{color:"#A6ACCD"}}," "),s("span",{style:{color:"#F78C6C"}},"0px"),s("span",{style:{color:"#A6ACCD"}}," yellow"),s("span",{style:{color:"#89DDFF"}},";")]),o(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#A6ACCD"}},"    "),s("span",{style:{color:"#B2CCD6"}},"padding"),s("span",{style:{color:"#89DDFF"}},":"),s("span",{style:{color:"#A6ACCD"}}," "),s("span",{style:{color:"#F78C6C"}},"0em"),s("span",{style:{color:"#A6ACCD"}}," "),s("span",{style:{color:"#F78C6C"}},"1em"),s("span",{style:{color:"#89DDFF"}},";")]),o(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#A6ACCD"}},"    "),s("span",{style:{color:"#B2CCD6"}},"border-radius"),s("span",{style:{color:"#89DDFF"}},":"),s("span",{style:{color:"#A6ACCD"}}," "),s("span",{style:{color:"#F78C6C"}},"16px"),s("span",{style:{color:"#89DDFF"}},";")]),o(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#A6ACCD"}},"    "),s("span",{style:{color:"#B2CCD6"}},"border-style"),s("span",{style:{color:"#89DDFF"}},":"),s("span",{style:{color:"#A6ACCD"}}," solid"),s("span",{style:{color:"#89DDFF"}},";")]),o(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#A6ACCD"}},"    "),s("span",{style:{color:"#B2CCD6"}},"margin-left"),s("span",{style:{color:"#89DDFF"}},":"),s("span",{style:{color:"#A6ACCD"}}," "),s("span",{style:{color:"#F78C6C"}},"10px"),s("span",{style:{color:"#89DDFF"}},";")]),o(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#A6ACCD"}},"    "),s("span",{style:{color:"#FFCB6B"}},"font"),s("span",{style:{color:"#89DDFF"}},":"),s("span",{style:{color:"#A6ACCD"}}," "),s("span",{style:{color:"#F78C6C"}},"24px"),s("span",{style:{color:"#A6ACCD"}}," sans-serif"),s("span",{style:{color:"#89DDFF"}},";")]),o(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#A6ACCD"}},"    "),s("span",{style:{color:"#B2CCD6"}},"line-height"),s("span",{style:{color:"#89DDFF"}},":"),s("span",{style:{color:"#A6ACCD"}}," "),s("span",{style:{color:"#F78C6C"}},"2"),s("span",{style:{color:"#89DDFF"}},";")]),o(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#A6ACCD"}},"    "),s("span",{style:{color:"#FFCB6B"}},"-webkit-box-decoration-break"),s("span",{style:{color:"#89DDFF"}},":"),s("span",{style:{color:"#A6ACCD"}}," clone"),s("span",{style:{color:"#89DDFF"}},";")]),o(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#A6ACCD"}},"    "),s("span",{style:{color:"#B2CCD6"}},"box-decoration-break"),s("span",{style:{color:"#89DDFF"}},":"),s("span",{style:{color:"#A6ACCD"}}," clone"),s("span",{style:{color:"#89DDFF"}},";")]),o(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#A6ACCD"}},"  "),s("span",{style:{color:"#89DDFF"}},"}")]),o(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#89DDFF"}},"}")]),o(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#89DDFF"}},"</"),s("span",{style:{color:"#F07178"}},"style"),s("span",{style:{color:"#89DDFF"}},">")])])])],-1),g=c("",6),q=JSON.parse('{"title":"box-decoration-break","description":"","frontmatter":{"layout":"doc"},"headers":[],"relativePath":"vue/css/attr/box-decoration-break.md","filePath":"vue/css/attr/box-decoration-break.md","lastUpdated":1690815862000}'),v={name:"vue/css/attr/box-decoration-break.md"},w=Object.assign(v,{setup(l){return(r,B)=>{const p=i("demo");return n(),t("div",null,[f,e(p,{customClass:"",sourceCode:`<template>
+  <div class="base">
+    <span class="example">The<br />quick<br />orange fox</span>
+  </div>
+</template>
+
+<style lang="scss" scoped>
+.base {
+  .example {
+    background: linear-gradient(to bottom right, yellow, green);
+    box-shadow: 8px 8px 10px 0px deeppink, -5px -5px 5px 0px blue,
+      5px 5px 15px 0px yellow;
+    padding: 0em 1em;
+    border-radius: 16px;
+    border-style: solid;
+    margin-left: 10px;
+    font: 24px sans-serif;
+    line-height: 2;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+  }
+}
+</style>
+`},{highlight:a(()=>[k]),default:a(()=>[e(u)]),_:1}),g])}}});export{q as __pageData,w as default};
