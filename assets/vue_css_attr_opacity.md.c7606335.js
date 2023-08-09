@@ -1,0 +1,34 @@
+import{_ as y,o as t,c as n,O as D,Q as i,z as s,D as F,G as o,B as e,R as c,a}from"./chunks/framework.318fa179.js";const d={},C=l=>(D("data-v-5b149708"),l=l(),i(),l),_={class:"base"},A=C(()=>s("div",{class:"opacity"},"Example of the css opacity property.",-1)),h=[A];function u(l,p){return t(),n("div",_,h)}const m=y(d,[["render",u],["__scopeId","data-v-5b149708"]]),v=c('<h1 id="opacity" tabindex="-1">opacity <a class="header-anchor" href="#opacity" aria-label="Permalink to &quot;opacity&quot;">​</a></h1><h2 id="描述" tabindex="-1">描述 <a class="header-anchor" href="#描述" aria-label="Permalink to &quot;描述&quot;">​</a></h2><p>opacity CSS 属性设置元素的不透明度。不透明度是元素后面的内容隐藏的程度，与透明度相反。</p><h2 id="效果展示" tabindex="-1">效果展示 <a class="header-anchor" href="#效果展示" aria-label="Permalink to &quot;效果展示&quot;">​</a></h2>',4),g=s("div",{class:"language-vue vp-adaptive-theme"},[s("span",{class:"lang"},"vue"),s("pre",{"v-pre":"",class:"shiki material-theme-palenight"},[s("code",null,[s("span",{class:"line"},[s("span",{style:{color:"#89DDFF"}},"<"),s("span",{style:{color:"#F07178"}},"template"),s("span",{style:{color:"#89DDFF"}},">")]),a(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#A6ACCD"}},"  "),s("span",{style:{color:"#89DDFF"}},"<"),s("span",{style:{color:"#F07178"}},"div"),s("span",{style:{color:"#89DDFF"}}," "),s("span",{style:{color:"#C792EA"}},"class"),s("span",{style:{color:"#89DDFF"}},"="),s("span",{style:{color:"#89DDFF"}},'"'),s("span",{style:{color:"#C3E88D"}},"base"),s("span",{style:{color:"#89DDFF"}},'"'),s("span",{style:{color:"#89DDFF"}},">")]),a(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#A6ACCD"}},"    "),s("span",{style:{color:"#89DDFF"}},"<"),s("span",{style:{color:"#F07178"}},"div"),s("span",{style:{color:"#89DDFF"}}," "),s("span",{style:{color:"#C792EA"}},"class"),s("span",{style:{color:"#89DDFF"}},"="),s("span",{style:{color:"#89DDFF"}},'"'),s("span",{style:{color:"#C3E88D"}},"opacity"),s("span",{style:{color:"#89DDFF"}},'"'),s("span",{style:{color:"#89DDFF"}},">"),s("span",{style:{color:"#A6ACCD"}},"Example of the css opacity property."),s("span",{style:{color:"#89DDFF"}},"</"),s("span",{style:{color:"#F07178"}},"div"),s("span",{style:{color:"#89DDFF"}},">")]),a(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#A6ACCD"}},"  "),s("span",{style:{color:"#89DDFF"}},"</"),s("span",{style:{color:"#F07178"}},"div"),s("span",{style:{color:"#89DDFF"}},">")]),a(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#89DDFF"}},"</"),s("span",{style:{color:"#F07178"}},"template"),s("span",{style:{color:"#89DDFF"}},">")]),a(`
+`),s("span",{class:"line"}),a(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#89DDFF"}},"<"),s("span",{style:{color:"#F07178"}},"style"),s("span",{style:{color:"#A6ACCD"}}," "),s("span",{style:{color:"#C792EA"}},"lang"),s("span",{style:{color:"#89DDFF"}},"="),s("span",{style:{color:"#89DDFF"}},'"'),s("span",{style:{color:"#C3E88D"}},"scss"),s("span",{style:{color:"#89DDFF"}},'"'),s("span",{style:{color:"#A6ACCD"}}," "),s("span",{style:{color:"#C792EA"}},"scoped"),s("span",{style:{color:"#89DDFF"}},">")]),a(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#89DDFF"}},"."),s("span",{style:{color:"#FFCB6B"}},"base"),s("span",{style:{color:"#A6ACCD"}}," "),s("span",{style:{color:"#89DDFF"}},"{")]),a(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#A6ACCD"}},"  "),s("span",{style:{color:"#B2CCD6"}},"background"),s("span",{style:{color:"#89DDFF"}},":"),s("span",{style:{color:"#A6ACCD"}}," "),s("span",{style:{color:"#82AAFF"}},"url"),s("span",{style:{color:"#89DDFF"}},"(/"),s("span",{style:{color:"#A6ACCD","font-style":"italic"}},"img/vue.svg"),s("span",{style:{color:"#89DDFF"}},");")]),a(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#A6ACCD"}},"  "),s("span",{style:{color:"#89DDFF"}},"."),s("span",{style:{color:"#FFCB6B"}},"opacity"),s("span",{style:{color:"#A6ACCD"}}," "),s("span",{style:{color:"#89DDFF"}},"{")]),a(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#A6ACCD"}},"    "),s("span",{style:{color:"#B2CCD6"}},"background"),s("span",{style:{color:"#89DDFF"}},":"),s("span",{style:{color:"#A6ACCD"}}," "),s("span",{style:{color:"#89DDFF"}},"#"),s("span",{style:{color:"#A6ACCD"}},"ccc"),s("span",{style:{color:"#89DDFF"}},";")]),a(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#A6ACCD"}},"    "),s("span",{style:{color:"#B2CCD6"}},"padding"),s("span",{style:{color:"#89DDFF"}},":"),s("span",{style:{color:"#A6ACCD"}}," "),s("span",{style:{color:"#F78C6C"}},"30px"),s("span",{style:{color:"#89DDFF"}},";")]),a(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#A6ACCD"}},"    "),s("span",{style:{color:"#B2CCD6"}},"opacity"),s("span",{style:{color:"#89DDFF"}},":"),s("span",{style:{color:"#A6ACCD"}}," "),s("span",{style:{color:"#F78C6C"}},"0.7"),s("span",{style:{color:"#89DDFF"}},";")]),a(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#A6ACCD"}},"  "),s("span",{style:{color:"#89DDFF"}},"}")]),a(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#89DDFF"}},"}")]),a(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#89DDFF"}},"</"),s("span",{style:{color:"#F07178"}},"style"),s("span",{style:{color:"#89DDFF"}},">")])])])],-1),b=c(`<h2 id="语法" tabindex="-1">语法 <a class="header-anchor" href="#语法" aria-label="Permalink to &quot;语法&quot;">​</a></h2><div class="language-css"><button title="Copy Code" class="copy"></button><span class="lang">css</span><pre class="shiki material-theme-palenight"><code><span class="line"><span style="color:#A6ACCD;">opacity: &lt;alphavalue</span><span style="color:#89DDFF;">&gt;</span><span style="color:#A6ACCD;"> </span><span style="color:#89DDFF;">|</span><span style="color:#A6ACCD;"> inherit</span></span>
+<span class="line"><span style="color:#A6ACCD;">opacity: 0.9;</span></span>
+<span class="line"><span style="color:#A6ACCD;">opacity: 90%;</span></span></code></pre></div><h2 id="值" tabindex="-1">值 <a class="header-anchor" href="#值" aria-label="Permalink to &quot;值&quot;">​</a></h2><ul><li><code>&lt;alphavalue&gt;</code> 介于 0.0（完全透明）和 1.0（完全不透明）之间（含边界值）的浮点值。任何超出该范围的值都将被限制在该范围内。</li><li>inherit 继承</li></ul>`,4),E=JSON.parse('{"title":"opacity","description":"","frontmatter":{"layout":"doc"},"headers":[],"relativePath":"vue/css/attr/opacity.md","filePath":"vue/css/attr/opacity.md","lastUpdated":1691130516000}'),f={name:"vue/css/attr/opacity.md"},S=Object.assign(f,{setup(l){return(p,x)=>{const r=F("demo");return t(),n("div",null,[v,o(r,{customClass:"",sourceCode:`<template>
+  <div class="base">
+    <div class="opacity">Example of the css opacity property.</div>
+  </div>
+</template>
+
+<style lang="scss" scoped>
+.base {
+  background: url(/img/vue.svg);
+  .opacity {
+    background: #ccc;
+    padding: 30px;
+    opacity: 0.7;
+  }
+}
+</style>
+`},{highlight:e(()=>[g]),default:e(()=>[o(m)]),_:1}),b])}}});export{E as __pageData,S as default};

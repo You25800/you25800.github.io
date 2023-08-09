@@ -1,0 +1,39 @@
+import{_ as i,o,c as t,O as y,Q as F,z as s,D as d,G as e,B as n,R as p,a}from"./chunks/framework.318fa179.js";const D={},h=l=>(y("data-v-fd97833b"),l=l(),F(),l),C={class:"base"},_=h(()=>s("h2",null,"This is important!",-1)),m=[_];function A(l,c){return o(),t("div",C,m)}const u=i(D,[["render",A],["__scopeId","data-v-fd97833b"]]),x=p('<h1 id="text-emphasis" tabindex="-1">text-emphasis <a class="header-anchor" href="#text-emphasis" aria-label="Permalink to &quot;text-emphasis&quot;">​</a></h1><h2 id="描述" tabindex="-1">描述 <a class="header-anchor" href="#描述" aria-label="Permalink to &quot;描述&quot;">​</a></h2><p>text-emphasis CSS 属性将强调标记应用于文本（空格和控制字符除外）。它是 text-emphasis-style 和 text-emphasis-color 的简写。</p><h2 id="效果展示" tabindex="-1">效果展示 <a class="header-anchor" href="#效果展示" aria-label="Permalink to &quot;效果展示&quot;">​</a></h2>',4),B=s("div",{class:"language-vue vp-adaptive-theme"},[s("span",{class:"lang"},"vue"),s("pre",{"v-pre":"",class:"shiki material-theme-palenight"},[s("code",null,[s("span",{class:"line"},[s("span",{style:{color:"#89DDFF"}},"<"),s("span",{style:{color:"#F07178"}},"template"),s("span",{style:{color:"#89DDFF"}},">")]),a(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#A6ACCD"}},"  "),s("span",{style:{color:"#89DDFF"}},"<"),s("span",{style:{color:"#F07178"}},"div"),s("span",{style:{color:"#89DDFF"}}," "),s("span",{style:{color:"#C792EA"}},"class"),s("span",{style:{color:"#89DDFF"}},"="),s("span",{style:{color:"#89DDFF"}},'"'),s("span",{style:{color:"#C3E88D"}},"base"),s("span",{style:{color:"#89DDFF"}},'"'),s("span",{style:{color:"#89DDFF"}},"><"),s("span",{style:{color:"#F07178"}},"h2"),s("span",{style:{color:"#89DDFF"}},">"),s("span",{style:{color:"#A6ACCD"}},"This is important!"),s("span",{style:{color:"#89DDFF"}},"</"),s("span",{style:{color:"#F07178"}},"h2"),s("span",{style:{color:"#89DDFF"}},"></"),s("span",{style:{color:"#F07178"}},"div"),s("span",{style:{color:"#89DDFF"}},">")]),a(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#89DDFF"}},"</"),s("span",{style:{color:"#F07178"}},"template"),s("span",{style:{color:"#89DDFF"}},">")]),a(`
+`),s("span",{class:"line"}),a(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#89DDFF"}},"<"),s("span",{style:{color:"#F07178"}},"style"),s("span",{style:{color:"#A6ACCD"}}," "),s("span",{style:{color:"#C792EA"}},"lang"),s("span",{style:{color:"#89DDFF"}},"="),s("span",{style:{color:"#89DDFF"}},'"'),s("span",{style:{color:"#C3E88D"}},"scss"),s("span",{style:{color:"#89DDFF"}},'"'),s("span",{style:{color:"#A6ACCD"}}," "),s("span",{style:{color:"#C792EA"}},"scoped"),s("span",{style:{color:"#89DDFF"}},">")]),a(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#89DDFF"}},"."),s("span",{style:{color:"#FFCB6B"}},"base"),s("span",{style:{color:"#A6ACCD"}}," "),s("span",{style:{color:"#89DDFF"}},"{")]),a(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#A6ACCD"}},"  "),s("span",{style:{color:"#FFCB6B"}},"h2"),s("span",{style:{color:"#A6ACCD"}}," "),s("span",{style:{color:"#89DDFF"}},"{")]),a(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#A6ACCD"}},"    "),s("span",{style:{color:"#B2CCD6"}},"text-emphasis"),s("span",{style:{color:"#89DDFF"}},":"),s("span",{style:{color:"#A6ACCD"}}," triangle "),s("span",{style:{color:"#89DDFF"}},"#"),s("span",{style:{color:"#A6ACCD"}},"d55"),s("span",{style:{color:"#89DDFF"}},";")]),a(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#A6ACCD"}},"  "),s("span",{style:{color:"#89DDFF"}},"}")]),a(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#89DDFF"}},"}")]),a(`
+`),s("span",{class:"line"},[s("span",{style:{color:"#89DDFF"}},"</"),s("span",{style:{color:"#F07178"}},"style"),s("span",{style:{color:"#89DDFF"}},">")])])])],-1),f=p(`<h2 id="语法" tabindex="-1">语法 <a class="header-anchor" href="#语法" aria-label="Permalink to &quot;语法&quot;">​</a></h2><div class="language-css"><button title="Copy Code" class="copy"></button><span class="lang">css</span><pre class="shiki material-theme-palenight"><code><span class="line"><span style="color:#676E95;font-style:italic;">/* Initial value */</span></span>
+<span class="line"><span style="color:#FFCB6B;">text-emphasis</span><span style="color:#A6ACCD;">: none; </span><span style="color:#676E95;font-style:italic;">/* No emphasis marks */</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#676E95;font-style:italic;">/* &lt;string&gt; value */</span></span>
+<span class="line"><span style="color:#FFCB6B;">text-emphasis</span><span style="color:#A6ACCD;">: &quot;x&quot;;</span></span>
+<span class="line"><span style="color:#FFCB6B;">text-emphasis</span><span style="color:#A6ACCD;">: &quot;点&quot;;</span></span>
+<span class="line"><span style="color:#FFCB6B;">text-emphasis</span><span style="color:#A6ACCD;">: &quot;\\25B2&quot;;</span></span>
+<span class="line"><span style="color:#FFCB6B;">text-emphasis</span><span style="color:#A6ACCD;">: &quot;</span><span style="color:#FFCB6B;">*</span><span style="color:#A6ACCD;">&quot; </span><span style="color:#89DDFF;">#</span><span style="color:#A6ACCD;">555;</span></span>
+<span class="line"><span style="color:#FFCB6B;">text-emphasis</span><span style="color:#A6ACCD;">: &quot;foo&quot;; </span><span style="color:#676E95;font-style:italic;">/* Should NOT use. It may be computed to or rendered as &#39;f&#39; only */</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#676E95;font-style:italic;">/* Keywords value */</span></span>
+<span class="line"><span style="color:#FFCB6B;">text-emphasis</span><span style="color:#A6ACCD;">: filled;</span></span>
+<span class="line"><span style="color:#FFCB6B;">text-emphasis</span><span style="color:#A6ACCD;">: open;</span></span>
+<span class="line"><span style="color:#FFCB6B;">text-emphasis</span><span style="color:#A6ACCD;">: filled sesame;</span></span>
+<span class="line"><span style="color:#FFCB6B;">text-emphasis</span><span style="color:#A6ACCD;">: open sesame;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#676E95;font-style:italic;">/* Keywords value combined with a color */</span></span>
+<span class="line"><span style="color:#FFCB6B;">text-emphasis</span><span style="color:#A6ACCD;">: filled sesame </span><span style="color:#89DDFF;">#</span><span style="color:#A6ACCD;">555;</span></span></code></pre></div><h2 id="值" tabindex="-1">值 <a class="header-anchor" href="#值" aria-label="Permalink to &quot;值&quot;">​</a></h2><ul><li>none 没有强调标记。</li><li>filled 该形状填充有纯色。如果 filled 和 open 都不存在，则这是默认值。</li><li>open 形状是空心的。</li><li>dot 显示小圆圈作为标记。实心点是 &#39;•&#39; ( U+2022 )，空心点是 &#39;◦&#39; ( U+25E6 )。</li><li>circle 显示大圆圈作为标记。实心圆是 &#39;●&#39; ( U+25CF )，空心圆是 &#39;○&#39; ( U+25CB )。当没有给出其他形状时，这是水平书写模式下的默认形状。</li><li>double-circle 显示双圆圈作为标记。实心双圆是 &#39;◉&#39; ( U+25C9 )，空心双圆是 &#39;◎&#39; ( U+25CE )。</li><li>triangle 显示三角形作为标记。实心三角形为 &#39;▲&#39; ( U+25B2 )，空心三角形为 &#39;△&#39; ( U+25B3 )。</li><li>sesame 显示芝麻作为标记。夹心芝麻是 &#39;﹅&#39; ( U+FE45 )，开放芝麻是 &#39;﹆&#39; ( U+FE46 )。当没有给出其他形状时，这是垂直书写模式下的默认形状。</li><li><code>&lt;string&gt;</code> 将给定字符串显示为标记。作者不应在 <code>&lt;string&gt;</code> 中指定多个字符。 UA 可能会截断或忽略由多个字素簇组成的字符串。</li><li><code>&lt;color&gt;</code> 定义标记的颜色。如果不存在颜色，则默认为 currentcolor 。</li></ul>`,4),q=JSON.parse('{"title":"text-emphasis","description":"","frontmatter":{"layout":"doc"},"headers":[],"relativePath":"vue/css/attr/text-emphasis.md","filePath":"vue/css/attr/text-emphasis.md","lastUpdated":1691547431000}'),b={name:"vue/css/attr/text-emphasis.md"},E=Object.assign(b,{setup(l){return(c,v)=>{const r=d("demo");return o(),t("div",null,[x,e(r,{customClass:"",sourceCode:`<template>
+  <div class="base"><h2>This is important!</h2></div>
+</template>
+
+<style lang="scss" scoped>
+.base {
+  h2 {
+    text-emphasis: triangle #d55;
+  }
+}
+</style>
+`},{highlight:n(()=>[B]),default:n(()=>[e(u)]),_:1}),f])}}});export{q as __pageData,E as default};
