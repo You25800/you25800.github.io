@@ -36,7 +36,7 @@ import{_ as D,o as e,c as t,O as y,Q as C,z as s,D as F,G as n,B as a,R as c,a a
 `),s("span",{class:"line"},[s("span",{style:{color:"#A6ACCD"}},"    "),s("span",{style:{color:"#B2CCD6"}},"text-align"),s("span",{style:{color:"#89DDFF"}},":"),s("span",{style:{color:"#A6ACCD"}}," justify"),s("span",{style:{color:"#89DDFF"}},";")]),l(`
 `),s("span",{class:"line"},[s("span",{style:{color:"#A6ACCD"}},"  "),s("span",{style:{color:"#89DDFF"}},"}")]),l(`
 `),s("span",{class:"line"},[s("span",{style:{color:"#89DDFF"}},"}")]),l(`
-`),s("span",{class:"line"},[s("span",{style:{color:"#89DDFF"}},"</"),s("span",{style:{color:"#F07178"}},"style"),s("span",{style:{color:"#89DDFF"}},">")])])])],-1),v=c("",4),T=JSON.parse('{"title":"top","description":"","frontmatter":{"layout":"doc"},"headers":[],"relativePath":"vue/css/attr/top.md","filePath":"vue/css/attr/top.md","lastUpdated":1691547431000}'),q={name:"vue/css/attr/top.md"},k=Object.assign(q,{setup(o){return(r,B)=>{const i=F("demo");return e(),t("div",null,[x,n(i,{customClass:"",sourceCode:`<template>
+`),s("span",{class:"line"},[s("span",{style:{color:"#89DDFF"}},"</"),s("span",{style:{color:"#F07178"}},"style"),s("span",{style:{color:"#89DDFF"}},">")])])])],-1),v=c("",4),T=JSON.parse('{"title":"top","description":"","frontmatter":{"layout":"doc"},"headers":[],"relativePath":"vue/css/attr/top.md","filePath":"vue/css/attr/top.md","lastUpdated":1691566697000}'),q={name:"vue/css/attr/top.md"},k=Object.assign(q,{setup(o){return(r,B)=>{const i=F("demo");return e(),t("div",null,[x,n(i,{customClass:"",sourceCode:`<template>
   <div class="base">
     <div class="content">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

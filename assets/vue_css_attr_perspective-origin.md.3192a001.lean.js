@@ -68,7 +68,7 @@ import{_ as D,o as e,c as t,R as o,D as y,G as n,B as a,z as s,a as l}from"./chu
 `),s("span",{class:"line"},[s("span",{style:{color:"#A6ACCD"}},"    "),s("span",{style:{color:"#89DDFF"}},"}")]),l(`
 `),s("span",{class:"line"},[s("span",{style:{color:"#A6ACCD"}},"  "),s("span",{style:{color:"#89DDFF"}},"}")]),l(`
 `),s("span",{class:"line"},[s("span",{style:{color:"#89DDFF"}},"}")]),l(`
-`),s("span",{class:"line"},[s("span",{style:{color:"#89DDFF"}},"</"),s("span",{style:{color:"#F07178"}},"style"),s("span",{style:{color:"#89DDFF"}},">")])])])],-1),_=o("",4),b=JSON.parse('{"title":"align","description":"","frontmatter":{"layout":"doc"},"headers":[],"relativePath":"vue/css/attr/perspective-origin.md","filePath":"vue/css/attr/perspective-origin.md","lastUpdated":1691130516000}'),h={name:"vue/css/attr/perspective-origin.md"},u=Object.assign(h,{setup(p){return(c,f)=>{const r=y("demo");return e(),t("div",null,[m,n(r,{customClass:"",sourceCode:`<template>
+`),s("span",{class:"line"},[s("span",{style:{color:"#89DDFF"}},"</"),s("span",{style:{color:"#F07178"}},"style"),s("span",{style:{color:"#89DDFF"}},">")])])])],-1),_=o("",4),b=JSON.parse('{"title":"align","description":"","frontmatter":{"layout":"doc"},"headers":[],"relativePath":"vue/css/attr/perspective-origin.md","filePath":"vue/css/attr/perspective-origin.md","lastUpdated":1691566697000}'),h={name:"vue/css/attr/perspective-origin.md"},u=Object.assign(h,{setup(p){return(c,f)=>{const r=y("demo");return e(),t("div",null,[m,n(r,{customClass:"",sourceCode:`<template>
   <div class="base">
     <div class="cube">
       <div class="side front">1</div>
