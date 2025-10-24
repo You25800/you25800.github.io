@@ -1,0 +1,586 @@
+import{_ as s,c as n,o as p,b3 as e}from"./chunks/framework.CatkIGlB.js";const g=JSON.parse('{"title":"Claude Code 实战指南","description":"","frontmatter":{"layout":"doc"},"headers":[],"relativePath":"AI/实战指南.md","filePath":"AI/实战指南.md","lastUpdated":null}'),l={name:"AI/实战指南.md"};function i(t,a,c,h,r,o){return p(),n("div",null,[...a[0]||(a[0]=[e(`<h1 id="claude-code-实战指南" tabindex="-1">Claude Code 实战指南 <a class="header-anchor" href="#claude-code-实战指南" aria-label="Permalink to &quot;Claude Code 实战指南&quot;">​</a></h1><blockquote><p>场景驱动 | 快速上手 | 开箱即用</p></blockquote><hr><h2 id="文档定位" tabindex="-1">文档定位 <a class="header-anchor" href="#文档定位" aria-label="Permalink to &quot;文档定位&quot;">​</a></h2><p>本文档是 <strong>场景驱动的实战指南</strong>,与其他文档的关系:</p><ul><li><strong>ClaudeCode.md</strong>: 模板库,提供 34 个通用提示词模板</li><li><strong>实战指南.md</strong> (本文档): 场景手册,提供具体场景的完整解决方案</li><li>关系: 模板库提供原子能力,实战指南组合模板解决实际问题</li></ul><p><strong>何时使用本文档:</strong></p><ul><li>为 VitePress 文档站点添加新内容</li><li>执行多步骤的文档处理流程</li><li>需要完整工作流程指导的场景</li></ul><p><strong>何时使用 ClaudeCode.md:</strong></p><ul><li>单次操作 (查询代码、改变量名等)</li><li>需要查找特定语法模板</li><li>需要了解工具基础用法</li></ul><hr><h2 id="快速开始" tabindex="-1">快速开始 <a class="header-anchor" href="#快速开始" aria-label="Permalink to &quot;快速开始&quot;">​</a></h2><h3 id="_5-分钟上手" tabindex="-1">5 分钟上手 <a class="header-anchor" href="#_5-分钟上手" aria-label="Permalink to &quot;5 分钟上手&quot;">​</a></h3><h4 id="场景导航" tabindex="-1">场景导航 <a class="header-anchor" href="#场景导航" aria-label="Permalink to &quot;场景导航&quot;">​</a></h4><p>根据你的需求,选择对应场景:</p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>┌─────────────────────────────────────────┐</span></span>
+<span class="line"><span>│ 文档项目专属场景                          │</span></span>
+<span class="line"><span>├─────────────────────────────────────────┤</span></span>
+<span class="line"><span>│ 📝 添加新的函数文档                       │</span></span>
+<span class="line"><span>│    → 场景 1: 单个函数文档添加              │</span></span>
+<span class="line"><span>│                                         │</span></span>
+<span class="line"><span>│ 📚 批量生成文档                           │</span></span>
+<span class="line"><span>│    → 场景 2: 批量函数文档生成              │</span></span>
+<span class="line"><span>│                                         │</span></span>
+<span class="line"><span>│ 🔧 优化现有文档格式                       │</span></span>
+<span class="line"><span>│    → 场景 3: 文档格式标准化                │</span></span>
+<span class="line"><span>│                                         │</span></span>
+<span class="line"><span>│ 🗂️ 配置导航和侧边栏                       │</span></span>
+<span class="line"><span>│    → 场景 4: 导航配置优化                  │</span></span>
+<span class="line"><span>│                                         │</span></span>
+<span class="line"><span>│ 🎨 自定义主题和组件                       │</span></span>
+<span class="line"><span>│    → 场景 5: 主题定制                     │</span></span>
+<span class="line"><span>│                                         │</span></span>
+<span class="line"><span>│ 🐛 修复构建错误                           │</span></span>
+<span class="line"><span>│    → 工作流 3: Bug 修复流程                │</span></span>
+<span class="line"><span>│                                         │</span></span>
+<span class="line"><span>│ ⚡ 性能优化                               │</span></span>
+<span class="line"><span>│    → 工作流 6: 性能优化流程                │</span></span>
+<span class="line"><span>└─────────────────────────────────────────┘</span></span></code></pre></div><hr><h2 id="第一部分-文档项目专属场景" tabindex="-1">第一部分: 文档项目专属场景 <a class="header-anchor" href="#第一部分-文档项目专属场景" aria-label="Permalink to &quot;第一部分: 文档项目专属场景&quot;">​</a></h2><h3 id="场景-1-添加单个函数文档" tabindex="-1">场景 1: 添加单个函数文档 <a class="header-anchor" href="#场景-1-添加单个函数文档" aria-label="Permalink to &quot;场景 1: 添加单个函数文档&quot;">​</a></h3><p><strong>需求</strong>: 为 PostgreSQL 或其他数据库添加一个函数的文档页面</p><p><strong>复杂度</strong>: 🟢 简单 (2-3 轮)</p><p><strong>完整流程</strong>:</p><h4 id="第-1-轮-确认文档格式" tabindex="-1">第 1 轮: 确认文档格式 <a class="header-anchor" href="#第-1-轮-确认文档格式" aria-label="Permalink to &quot;第 1 轮: 确认文档格式&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>我需要为 PostgreSQL 函数 [函数名] 添加文档页面</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>请先查看现有函数文档格式:</span></span>
+<span class="line"><span>@docs/database/postgreSQL/ref/ascii.md</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>分析并复述文档格式规范,包括:</span></span>
+<span class="line"><span>1. frontmatter 结构</span></span>
+<span class="line"><span>2. 标题层级</span></span>
+<span class="line"><span>3. 内容组织方式</span></span>
+<span class="line"><span>4. 示例格式</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>不要写代码</span></span></code></pre></div><p><strong>AI 会输出</strong>: 文档格式规范的详细说明</p><hr><h4 id="第-2-轮-提供函数信息并生成" tabindex="-1">第 2 轮: 提供函数信息并生成 <a class="header-anchor" href="#第-2-轮-提供函数信息并生成" aria-label="Permalink to &quot;第 2 轮: 提供函数信息并生成&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>理解正确,现在根据以下信息生成文档</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>【函数信息】</span></span>
+<span class="line"><span>- 函数名: [函数名]</span></span>
+<span class="line"><span>- 功能描述: [描述]</span></span>
+<span class="line"><span>- 语法: [语法]</span></span>
+<span class="line"><span>- 参数说明: [参数]</span></span>
+<span class="line"><span>- 返回值: [返回值类型和说明]</span></span>
+<span class="line"><span>- 示例:</span></span>
+<span class="line"><span>  \`\`\`sql</span></span>
+<span class="line"><span>  [SQL 示例]</span></span></code></pre></div><p>【文档路径】 创建文件: docs/database/postgreSQL/ref/[函数名].md</p><p>【要求】</p><ul><li>严格遵循 @docs/database/postgreSQL/ref/ascii.md 的格式</li><li>使用中文撰写</li><li>示例要实用且易懂</li></ul><p>开始生成</p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span></span></span>
+<span class="line"><span>---</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>#### 第 3 轮: 更新侧边栏配置</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>\`\`\`text</span></span>
+<span class="line"><span>文档生成完成,现在更新侧边栏配置</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>@docs/.vitepress/sidebar.ts</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>在 PostgreSQL 函数参考部分添加新文档的链接</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>要求:</span></span>
+<span class="line"><span>- 按字母顺序或分类插入</span></span>
+<span class="line"><span>- 保持现有格式</span></span>
+<span class="line"><span>- 检查是否有重复项</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>直接修改</span></span></code></pre></div><p><strong>总结</strong>: 3 轮完成单个函数文档添加,包含生成文档和配置更新</p><hr><h3 id="场景-2-批量生成函数文档" tabindex="-1">场景 2: 批量生成函数文档 <a class="header-anchor" href="#场景-2-批量生成函数文档" aria-label="Permalink to &quot;场景 2: 批量生成函数文档&quot;">​</a></h3><p><strong>需求</strong>: 一次性为多个函数生成文档</p><p><strong>复杂度</strong>: 🟡 中等 (4-6 轮)</p><p><strong>完整流程</strong>:</p><h4 id="第-1-轮-准备函数清单" tabindex="-1">第 1 轮: 准备函数清单 <a class="header-anchor" href="#第-1-轮-准备函数清单" aria-label="Permalink to &quot;第 1 轮: 准备函数清单&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>我需要批量生成 PostgreSQL 函数文档</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>请先读取现有文档格式:</span></span>
+<span class="line"><span>@docs/database/postgreSQL/ref/ascii.md</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>然后制定批量生成方案,不要写代码</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>【函数清单】</span></span>
+<span class="line"><span>准备以 CSV 或 JSON 格式提供函数信息,包含:</span></span>
+<span class="line"><span>- 函数名</span></span>
+<span class="line"><span>- 功能描述</span></span>
+<span class="line"><span>- 语法</span></span>
+<span class="line"><span>- 示例</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>请建议最佳的数据组织格式</span></span></code></pre></div><hr><h4 id="第-2-轮-提供数据并开始生成" tabindex="-1">第 2 轮: 提供数据并开始生成 <a class="header-anchor" href="#第-2-轮-提供数据并开始生成" aria-label="Permalink to &quot;第 2 轮: 提供数据并开始生成&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>采用建议的格式,这是函数数据:</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>[粘贴 JSON 或 CSV 数据]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>要求:</span></span>
+<span class="line"><span>- 为每个函数生成独立的 .md 文件</span></span>
+<span class="line"><span>- 文件命名: 函数名小写.md</span></span>
+<span class="line"><span>- 保存路径: docs/database/postgreSQL/ref/</span></span>
+<span class="line"><span>- 每生成 5 个暂停一次,让我确认</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>开始第一批 (1-5)</span></span></code></pre></div><hr><h4 id="第-3-5-轮-分批生成" tabindex="-1">第 3-5 轮: 分批生成 <a class="header-anchor" href="#第-3-5-轮-分批生成" aria-label="Permalink to &quot;第 3-5 轮: 分批生成&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>第一批正确,继续第二批 (6-10)</span></span></code></pre></div><p>(重复直到完成所有函数)</p><hr><h4 id="第-6-轮-批量更新侧边栏" tabindex="-1">第 6 轮: 批量更新侧边栏 <a class="header-anchor" href="#第-6-轮-批量更新侧边栏" aria-label="Permalink to &quot;第 6 轮: 批量更新侧边栏&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>所有文档生成完成</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>现在更新 @docs/.vitepress/sidebar.ts</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>批量添加以下函数文档链接:</span></span>
+<span class="line"><span>[函数名列表]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>要求:</span></span>
+<span class="line"><span>- 按分类或字母顺序插入</span></span>
+<span class="line"><span>- 保持一致的缩进和格式</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>直接修改</span></span></code></pre></div><p><strong>总结</strong>: 通过分批生成和统一配置更新,高效完成批量文档创建</p><hr><h3 id="场景-3-文档格式标准化" tabindex="-1">场景 3: 文档格式标准化 <a class="header-anchor" href="#场景-3-文档格式标准化" aria-label="Permalink to &quot;场景 3: 文档格式标准化&quot;">​</a></h3><p><strong>需求</strong>: 将不规范的文档统一为标准格式</p><p><strong>复杂度</strong>: 🟡 中等 (4-5 轮)</p><p><strong>完整流程</strong>:</p><h4 id="第-1-轮-分析现有文档" tabindex="-1">第 1 轮: 分析现有文档 <a class="header-anchor" href="#第-1-轮-分析现有文档" aria-label="Permalink to &quot;第 1 轮: 分析现有文档&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>@docs/database/postgreSQL/ref/ascii.md 是标准格式</span></span>
+<span class="line"><span>@docs/[待优化文档路径]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>请对比这两个文档,列出不符合标准的地方,不要写代码</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>【对比维度】</span></span>
+<span class="line"><span>1. frontmatter 是否完整</span></span>
+<span class="line"><span>2. 标题层级是否正确</span></span>
+<span class="line"><span>3. 代码块是否有语言标识</span></span>
+<span class="line"><span>4. 示例格式是否统一</span></span>
+<span class="line"><span>5. 空行和缩进是否规范</span></span></code></pre></div><hr><h4 id="第-2-轮-制定优化方案" tabindex="-1">第 2 轮: 制定优化方案 <a class="header-anchor" href="#第-2-轮-制定优化方案" aria-label="Permalink to &quot;第 2 轮: 制定优化方案&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>理解问题,请给出详细的优化方案,不要写代码</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>包括:</span></span>
+<span class="line"><span>1. 需要修改的具体位置</span></span>
+<span class="line"><span>2. 修改前后对比</span></span>
+<span class="line"><span>3. 是否需要补充内容</span></span></code></pre></div><hr><h4 id="第-3-轮-执行优化" tabindex="-1">第 3 轮: 执行优化 <a class="header-anchor" href="#第-3-轮-执行优化" aria-label="Permalink to &quot;第 3 轮: 执行优化&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>采用方案,开始优化</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>@docs/[待优化文档路径]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>要求:</span></span>
+<span class="line"><span>- 严格遵循标准格式</span></span>
+<span class="line"><span>- 保留原有内容,仅调整格式</span></span>
+<span class="line"><span>- 补充缺失的 frontmatter</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>直接修改</span></span></code></pre></div><hr><h4 id="第-4-轮-批量优化-如需要" tabindex="-1">第 4 轮: 批量优化 (如需要) <a class="header-anchor" href="#第-4-轮-批量优化-如需要" aria-label="Permalink to &quot;第 4 轮: 批量优化 (如需要)&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>第一个文档优化完成</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>现在按相同标准优化以下文档:</span></span>
+<span class="line"><span>@docs/[文档 1]</span></span>
+<span class="line"><span>@docs/[文档 2]</span></span>
+<span class="line"><span>@docs/[文档 3]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>每个文档优化完成后暂停</span></span></code></pre></div><p><strong>总结</strong>: 通过标准对比和逐步优化,确保文档格式一致性</p><hr><h3 id="场景-4-导航和侧边栏配置优化" tabindex="-1">场景 4: 导航和侧边栏配置优化 <a class="header-anchor" href="#场景-4-导航和侧边栏配置优化" aria-label="Permalink to &quot;场景 4: 导航和侧边栏配置优化&quot;">​</a></h3><p><strong>需求</strong>: 重新组织导航结构或侧边栏分类</p><p><strong>复杂度</strong>: 🟡 中等 (3-4 轮)</p><p><strong>完整流程</strong>:</p><h4 id="第-1-轮-分析现有结构" tabindex="-1">第 1 轮: 分析现有结构 <a class="header-anchor" href="#第-1-轮-分析现有结构" aria-label="Permalink to &quot;第 1 轮: 分析现有结构&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>@docs/.vitepress/nav.ts</span></span>
+<span class="line"><span>@docs/.vitepress/sidebar.ts</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>分析当前导航和侧边栏结构,不要写代码</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>【分析内容】</span></span>
+<span class="line"><span>1. 当前的分类逻辑</span></span>
+<span class="line"><span>2. 各分类下的内容数量</span></span>
+<span class="line"><span>3. 是否有分类不合理的地方</span></span>
+<span class="line"><span>4. 是否有遗漏的文档</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>请给出结构优化建议</span></span></code></pre></div><hr><h4 id="第-2-轮-设计新结构" tabindex="-1">第 2 轮: 设计新结构 <a class="header-anchor" href="#第-2-轮-设计新结构" aria-label="Permalink to &quot;第 2 轮: 设计新结构&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>采用建议 [X],请详细设计新的导航结构,不要写代码</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>包括:</span></span>
+<span class="line"><span>1. 顶层导航分类</span></span>
+<span class="line"><span>2. 每个分类下的子项</span></span>
+<span class="line"><span>3. 侧边栏的嵌套层级</span></span>
+<span class="line"><span>4. 迁移影响评估</span></span></code></pre></div><hr><h4 id="第-3-轮-实施配置更新" tabindex="-1">第 3 轮: 实施配置更新 <a class="header-anchor" href="#第-3-轮-实施配置更新" aria-label="Permalink to &quot;第 3 轮: 实施配置更新&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>确认方案,开始更新配置</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>先更新 @docs/.vitepress/nav.ts</span></span>
+<span class="line"><span>按照新设计调整导航结构</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>完成后暂停</span></span></code></pre></div><hr><h4 id="第-4-轮-更新侧边栏" tabindex="-1">第 4 轮: 更新侧边栏 <a class="header-anchor" href="#第-4-轮-更新侧边栏" aria-label="Permalink to &quot;第 4 轮: 更新侧边栏&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>导航更新正确</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>现在更新 @docs/.vitepress/sidebar.ts</span></span>
+<span class="line"><span>按照新分类组织侧边栏</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>要求:</span></span>
+<span class="line"><span>- 保持路径正确</span></span>
+<span class="line"><span>- 保持层级清晰</span></span>
+<span class="line"><span>- 添加必要的注释</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>直接修改</span></span></code></pre></div><p><strong>总结</strong>: 通过分析-设计-实施的流程,系统性优化导航结构</p><hr><h3 id="场景-5-vitepress-主题定制" tabindex="-1">场景 5: VitePress 主题定制 <a class="header-anchor" href="#场景-5-vitepress-主题定制" aria-label="Permalink to &quot;场景 5: VitePress 主题定制&quot;">​</a></h3><p><strong>需求</strong>: 自定义主题样式或组件</p><p><strong>复杂度</strong>: 🔴 复杂 (6-8 轮)</p><p><strong>完整流程</strong>:</p><h4 id="第-1-轮-理解现有主题" tabindex="-1">第 1 轮: 理解现有主题 <a class="header-anchor" href="#第-1-轮-理解现有主题" aria-label="Permalink to &quot;第 1 轮: 理解现有主题&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>@docs/.vitepress/theme/index.ts</span></span>
+<span class="line"><span>@docs/.vitepress/theme/style.css</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>分析当前主题配置,不要写代码</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>【分析内容】</span></span>
+<span class="line"><span>1. 使用的基础主题</span></span>
+<span class="line"><span>2. 已注册的自定义组件</span></span>
+<span class="line"><span>3. 已应用的插件</span></span>
+<span class="line"><span>4. 自定义样式范围</span></span></code></pre></div><hr><h4 id="第-2-轮-需求讨论" tabindex="-1">第 2 轮: 需求讨论 <a class="header-anchor" href="#第-2-轮-需求讨论" aria-label="Permalink to &quot;第 2 轮: 需求讨论&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>我需要实现以下定制,请讨论实施方案,不要写代码</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>【定制需求】</span></span>
+<span class="line"><span>[具体描述,例如:]</span></span>
+<span class="line"><span>- 添加自定义页面布局</span></span>
+<span class="line"><span>- 修改主题色</span></span>
+<span class="line"><span>- 添加全局组件</span></span>
+<span class="line"><span>- 集成第三方插件</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>【技术约束】</span></span>
+<span class="line"><span>- 不破坏现有功能</span></span>
+<span class="line"><span>- 保持 VitePress 升级兼容性</span></span>
+<span class="line"><span>- 性能影响最小化</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>请给出 2-3 个方案对比</span></span></code></pre></div><hr><h4 id="第-3-轮-方案确认" tabindex="-1">第 3 轮: 方案确认 <a class="header-anchor" href="#第-3-轮-方案确认" aria-label="Permalink to &quot;第 3 轮: 方案确认&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>采用方案 [X],请详细说明实施步骤,不要写代码</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>包括:</span></span>
+<span class="line"><span>1. 需要创建的文件</span></span>
+<span class="line"><span>2. 需要修改的配置</span></span>
+<span class="line"><span>3. 依赖安装 (如有)</span></span>
+<span class="line"><span>4. 实施顺序</span></span></code></pre></div><hr><h4 id="第-4-7-轮-分步实施" tabindex="-1">第 4-7 轮: 分步实施 <a class="header-anchor" href="#第-4-7-轮-分步实施" aria-label="Permalink to &quot;第 4-7 轮: 分步实施&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span># 第 4 轮</span></span>
+<span class="line"><span>开始第一步: [步骤描述]</span></span>
+<span class="line"><span>完成后暂停</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span># 第 5 轮</span></span>
+<span class="line"><span>第一步正确,继续第二步</span></span>
+<span class="line"><span>...</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span># (根据复杂度调整轮数)</span></span></code></pre></div><hr><h4 id="第-8-轮-测试验证" tabindex="-1">第 8 轮: 测试验证 <a class="header-anchor" href="#第-8-轮-测试验证" aria-label="Permalink to &quot;第 8 轮: 测试验证&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>所有步骤完成</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>请列出测试要点:</span></span>
+<span class="line"><span>1. 需要检查的页面</span></span>
+<span class="line"><span>2. 需要测试的功能</span></span>
+<span class="line"><span>3. 浏览器兼容性检查</span></span>
+<span class="line"><span>4. 性能影响评估</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>输出测试清单,不要写代码</span></span></code></pre></div><p><strong>总结</strong>: 复杂定制需要充分的方案讨论和分步实施</p><hr><h2 id="第二部分-通用工作流程" tabindex="-1">第二部分: 通用工作流程 <a class="header-anchor" href="#第二部分-通用工作流程" aria-label="Permalink to &quot;第二部分: 通用工作流程&quot;">​</a></h2><h3 id="工作流-1-新功能开发" tabindex="-1">工作流 1: 新功能开发 <a class="header-anchor" href="#工作流-1-新功能开发" aria-label="Permalink to &quot;工作流 1: 新功能开发&quot;">​</a></h3><p><strong>适用场景</strong>: 从 0 到 1 开发新的文档模块或功能</p><p><strong>预计轮数</strong>: 8-10 轮</p><p><strong>流程图</strong>:</p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>需求分析(1) → 方案设计(2-3) → 需求确认(4)</span></span>
+<span class="line"><span>→ 任务规划(5) → 分步实施(6-8) → 验证测试(9) → 文档更新(10)</span></span></code></pre></div><h4 id="阶段-1-需求分析-第-1-轮" tabindex="-1">阶段 1: 需求分析 (第 1 轮) <a class="header-anchor" href="#阶段-1-需求分析-第-1-轮" aria-label="Permalink to &quot;阶段 1: 需求分析 (第 1 轮)&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>/clear</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>讨论需求,不要写代码</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>【需求背景】</span></span>
+<span class="line"><span>[业务背景描述]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>【功能目标】</span></span>
+<span class="line"><span>[要实现的核心功能]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>【技术要求】</span></span>
+<span class="line"><span>- [技术约束 1]</span></span>
+<span class="line"><span>- [技术约束 2]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>【相关文件】</span></span>
+<span class="line"><span>@[相关配置文件 1]</span></span>
+<span class="line"><span>@[相关配置文件 2]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>请分析:</span></span>
+<span class="line"><span>1. 现有架构是否支持该需求</span></span>
+<span class="line"><span>2. 需要新增哪些文件/配置</span></span>
+<span class="line"><span>3. 可能的技术难点</span></span>
+<span class="line"><span>4. 是否有类似功能可参考</span></span></code></pre></div><hr><h4 id="阶段-2-方案设计-第-2-3-轮" tabindex="-1">阶段 2: 方案设计 (第 2-3 轮) <a class="header-anchor" href="#阶段-2-方案设计-第-2-3-轮" aria-label="Permalink to &quot;阶段 2: 方案设计 (第 2-3 轮)&quot;">​</a></h4><h5 id="第-2-轮-方案对比" tabindex="-1">第 2 轮: 方案对比 <a class="header-anchor" href="#第-2-轮-方案对比" aria-label="Permalink to &quot;第 2 轮: 方案对比&quot;">​</a></h5><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>基于以上分析,请提供 2-3 个设计方案,不要写代码</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>对比维度:</span></span>
+<span class="line"><span>- 实施复杂度</span></span>
+<span class="line"><span>- 维护成本</span></span>
+<span class="line"><span>- 扩展性</span></span>
+<span class="line"><span>- 对现有系统的影响</span></span></code></pre></div><h5 id="第-3-轮-详细设计" tabindex="-1">第 3 轮: 详细设计 <a class="header-anchor" href="#第-3-轮-详细设计" aria-label="Permalink to &quot;第 3 轮: 详细设计&quot;">​</a></h5><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>采用方案 [X],请详细说明实施步骤,不要写代码</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>包括:</span></span>
+<span class="line"><span>1. 文件和目录结构</span></span>
+<span class="line"><span>2. 配置变更</span></span>
+<span class="line"><span>3. 依赖安装</span></span>
+<span class="line"><span>4. 关键实现细节</span></span>
+<span class="line"><span>5. 潜在风险点</span></span></code></pre></div><hr><h4 id="阶段-3-需求确认-第-4-轮" tabindex="-1">阶段 3: 需求确认 (第 4 轮) <a class="header-anchor" href="#阶段-3-需求确认-第-4-轮" aria-label="Permalink to &quot;阶段 3: 需求确认 (第 4 轮)&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>请复述以下内容,确认理解一致,不要写代码:</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>1. 文件和目录设计</span></span>
+<span class="line"><span>2. 配置项说明</span></span>
+<span class="line"><span>3. 核心功能流程</span></span>
+<span class="line"><span>4. 边界条件处理</span></span>
+<span class="line"><span>5. 兼容性策略</span></span></code></pre></div><hr><h4 id="阶段-4-任务规划-第-5-轮" tabindex="-1">阶段 4: 任务规划 (第 5 轮) <a class="header-anchor" href="#阶段-4-任务规划-第-5-轮" aria-label="Permalink to &quot;阶段 4: 任务规划 (第 5 轮)&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>制定详细的 todo 清单,按优先级排序,不要写代码</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>要求:</span></span>
+<span class="line"><span>- 每个 todo 是独立可测试的最小单元</span></span>
+<span class="line"><span>- 标注依赖关系</span></span>
+<span class="line"><span>- 标注风险点</span></span>
+<span class="line"><span>- 预估每个步骤的工作量</span></span></code></pre></div><hr><h4 id="阶段-5-分步实施-第-6-8-轮" tabindex="-1">阶段 5: 分步实施 (第 6-8 轮) <a class="header-anchor" href="#阶段-5-分步实施-第-6-8-轮" aria-label="Permalink to &quot;阶段 5: 分步实施 (第 6-8 轮)&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span># 第 6 轮</span></span>
+<span class="line"><span>采用方案 [X],开始编码</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>【实施顺序】</span></span>
+<span class="line"><span>1. 先创建基础文件和目录</span></span>
+<span class="line"><span>2. 再配置必要的设置</span></span>
+<span class="line"><span>3. 最后实现核心功能</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>每完成一步暂停,等我确认后继续</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span># 第 7-8 轮</span></span>
+<span class="line"><span>ok,继续下一步</span></span></code></pre></div><hr><h4 id="阶段-6-验证测试-第-9-轮" tabindex="-1">阶段 6: 验证测试 (第 9 轮) <a class="header-anchor" href="#阶段-6-验证测试-第-9-轮" aria-label="Permalink to &quot;阶段 6: 验证测试 (第 9 轮)&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>功能实施完成,请列出测试要点:</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>【功能测试】</span></span>
+<span class="line"><span>- [测试点 1]</span></span>
+<span class="line"><span>- [测试点 2]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>【边界测试】</span></span>
+<span class="line"><span>- [边界情况 1]</span></span>
+<span class="line"><span>- [边界情况 2]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>【兼容性测试】</span></span>
+<span class="line"><span>- 浏览器兼容性</span></span>
+<span class="line"><span>- 旧版本数据兼容性</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>输出测试清单,不要写代码</span></span></code></pre></div><hr><h4 id="阶段-7-文档更新-第-10-轮" tabindex="-1">阶段 7: 文档更新 (第 10 轮) <a class="header-anchor" href="#阶段-7-文档更新-第-10-轮" aria-label="Permalink to &quot;阶段 7: 文档更新 (第 10 轮)&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>测试通过,请更新相关文档:</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>1. 更新 README.md (如有新的依赖或配置)</span></span>
+<span class="line"><span>2. 更新 CLAUDE.md (如有新的规范)</span></span>
+<span class="line"><span>3. 生成使用说明 (如需要)</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>直接修改</span></span></code></pre></div><hr><h3 id="工作流-2-代码重构" tabindex="-1">工作流 2: 代码重构 <a class="header-anchor" href="#工作流-2-代码重构" aria-label="Permalink to &quot;工作流 2: 代码重构&quot;">​</a></h3><p><strong>适用场景</strong>: 改造现有文档或配置,提升质量</p><p><strong>预计轮数</strong>: 5-8 轮</p><p><strong>流程图</strong>:</p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>现状分析(1) → 参考学习(2) → 重构方案(3) → 分步实施(4-7) → 验证(8)</span></span></code></pre></div><h4 id="第-1-轮-现状分析" tabindex="-1">第 1 轮: 现状分析 <a class="header-anchor" href="#第-1-轮-现状分析" aria-label="Permalink to &quot;第 1 轮: 现状分析&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>@[待重构文件]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>分析当前代码/配置的问题,不要写代码</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>【分析维度】</span></span>
+<span class="line"><span>1. 结构是否清晰</span></span>
+<span class="line"><span>2. 是否有重复代码</span></span>
+<span class="line"><span>3. 是否符合最佳实践</span></span>
+<span class="line"><span>4. 可维护性评估</span></span>
+<span class="line"><span>5. 性能问题 (如适用)</span></span></code></pre></div><hr><h4 id="第-2-轮-参考学习" tabindex="-1">第 2 轮: 参考学习 <a class="header-anchor" href="#第-2-轮-参考学习" aria-label="Permalink to &quot;第 2 轮: 参考学习&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>@[参考文件]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>学习参考文件的优秀实践</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>请提取:</span></span>
+<span class="line"><span>1. 代码组织方式</span></span>
+<span class="line"><span>2. 命名规范</span></span>
+<span class="line"><span>3. 注释风格</span></span>
+<span class="line"><span>4. 可复用的模式</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>整理后说明如何应用到重构中,不要写代码</span></span></code></pre></div><hr><h4 id="第-3-轮-重构方案" tabindex="-1">第 3 轮: 重构方案 <a class="header-anchor" href="#第-3-轮-重构方案" aria-label="Permalink to &quot;第 3 轮: 重构方案&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>基于分析和参考,制定重构方案,不要写代码</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>【重构内容】</span></span>
+<span class="line"><span>1. 结构调整</span></span>
+<span class="line"><span>2. 代码提取和复用</span></span>
+<span class="line"><span>3. 命名优化</span></span>
+<span class="line"><span>4. 注释补充</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>【约束条件】</span></span>
+<span class="line"><span>- 不改变功能行为</span></span>
+<span class="line"><span>- 保持向后兼容</span></span>
+<span class="line"><span>- 分步实施,每步可验证</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>请给出详细的分步方案</span></span></code></pre></div><hr><h4 id="第-4-7-轮-逐步实施" tabindex="-1">第 4-7 轮: 逐步实施 <a class="header-anchor" href="#第-4-7-轮-逐步实施" aria-label="Permalink to &quot;第 4-7 轮: 逐步实施&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span># 第 4 轮</span></span>
+<span class="line"><span>采用方案,开始重构</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>先进行第一步: [步骤描述]</span></span>
+<span class="line"><span>完成后暂停</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span># 第 5-7 轮</span></span>
+<span class="line"><span>第一步正确,继续第二步</span></span>
+<span class="line"><span>...</span></span></code></pre></div><hr><h4 id="第-8-轮-验证" tabindex="-1">第 8 轮: 验证 <a class="header-anchor" href="#第-8-轮-验证" aria-label="Permalink to &quot;第 8 轮: 验证&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>重构完成,请验证:</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>1. 功能是否正常</span></span>
+<span class="line"><span>2. 是否引入新问题</span></span>
+<span class="line"><span>3. 是否达到重构目标</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>输出验证清单,不要写代码</span></span></code></pre></div><hr><h3 id="工作流-3-bug-修复" tabindex="-1">工作流 3: Bug 修复 <a class="header-anchor" href="#工作流-3-bug-修复" aria-label="Permalink to &quot;工作流 3: Bug 修复&quot;">​</a></h3><p><strong>适用场景</strong>: 快速定位和修复问题</p><p><strong>预计轮数</strong>: 5 轮</p><p><strong>流程图</strong>:</p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>问题复现(1) → 根因分析(2) → 修复方案(3) → 实施修复(4) → 验证(5)</span></span></code></pre></div><h4 id="第-1-轮-问题复现" tabindex="-1">第 1 轮: 问题复现 <a class="header-anchor" href="#第-1-轮-问题复现" aria-label="Permalink to &quot;第 1 轮: 问题复现&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>遇到以下问题,请帮助定位</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>【问题描述】</span></span>
+<span class="line"><span>[详细描述现象]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>【复现步骤】</span></span>
+<span class="line"><span>1. [步骤 1]</span></span>
+<span class="line"><span>2. [步骤 2]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>【预期行为】</span></span>
+<span class="line"><span>[应该是什么]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>【实际行为】</span></span>
+<span class="line"><span>[实际是什么]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>【相关文件】</span></span>
+<span class="line"><span>@[可能相关的文件 1]</span></span>
+<span class="line"><span>@[可能相关的文件 2]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>请先理解问题,不要写代码</span></span></code></pre></div><hr><h4 id="第-2-轮-根因分析" tabindex="-1">第 2 轮: 根因分析 <a class="header-anchor" href="#第-2-轮-根因分析" aria-label="Permalink to &quot;第 2 轮: 根因分析&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>基于代码分析根本原因,不要写代码</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>【分析内容】</span></span>
+<span class="line"><span>1. 问题出现的具体位置</span></span>
+<span class="line"><span>2. 为什么会出现这个问题</span></span>
+<span class="line"><span>3. 是否有其他潜在影响</span></span>
+<span class="line"><span>4. 是否是设计缺陷</span></span></code></pre></div><hr><h4 id="第-3-轮-修复方案" tabindex="-1">第 3 轮: 修复方案 <a class="header-anchor" href="#第-3-轮-修复方案" aria-label="Permalink to &quot;第 3 轮: 修复方案&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>请给出修复方案,不要写代码</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>【方案要求】</span></span>
+<span class="line"><span>1. 最小化改动</span></span>
+<span class="line"><span>2. 不引入新问题</span></span>
+<span class="line"><span>3. 考虑边界情况</span></span>
+<span class="line"><span>4. 是否需要补充测试</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>如有多个方案,请对比说明</span></span></code></pre></div><hr><h4 id="第-4-轮-实施修复" tabindex="-1">第 4 轮: 实施修复 <a class="header-anchor" href="#第-4-轮-实施修复" aria-label="Permalink to &quot;第 4 轮: 实施修复&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>采用方案 [X],开始修复</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>@[文件路径]#[行号]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>[具体修复指令]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>直接修改</span></span></code></pre></div><hr><h4 id="第-5-轮-验证测试" tabindex="-1">第 5 轮: 验证测试 <a class="header-anchor" href="#第-5-轮-验证测试" aria-label="Permalink to &quot;第 5 轮: 验证测试&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>修复完成,请列出验证要点:</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>【功能验证】</span></span>
+<span class="line"><span>- 原问题是否解决</span></span>
+<span class="line"><span>- 复现步骤是否正常</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>【回归验证】</span></span>
+<span class="line"><span>- 相关功能是否受影响</span></span>
+<span class="line"><span>- 边界情况是否正常</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>【建议测试用例】</span></span>
+<span class="line"><span>[补充测试用例建议]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>输出验证清单,不要写代码</span></span></code></pre></div><hr><h3 id="工作流-4-文档站点配置变更" tabindex="-1">工作流 4: 文档站点配置变更 <a class="header-anchor" href="#工作流-4-文档站点配置变更" aria-label="Permalink to &quot;工作流 4: 文档站点配置变更&quot;">​</a></h3><p><strong>适用场景</strong>: 修改 VitePress 配置、插件、主题等</p><p><strong>预计轮数</strong>: 4 轮</p><p><strong>流程图</strong>:</p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>需求分析(1) → 配置方案(2) → 实施变更(3) → 测试验证(4)</span></span></code></pre></div><h4 id="第-1-轮-需求分析" tabindex="-1">第 1 轮: 需求分析 <a class="header-anchor" href="#第-1-轮-需求分析" aria-label="Permalink to &quot;第 1 轮: 需求分析&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>需要对文档站点进行配置变更</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>【变更需求】</span></span>
+<span class="line"><span>[描述需要修改的配置]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>【当前配置】</span></span>
+<span class="line"><span>@docs/.vitepress/config.ts</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>请分析:</span></span>
+<span class="line"><span>1. 需要修改哪些配置项</span></span>
+<span class="line"><span>2. 是否需要安装新依赖</span></span>
+<span class="line"><span>3. 变更的影响范围</span></span>
+<span class="line"><span>4. 是否有风险</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>不要写代码</span></span></code></pre></div><hr><h4 id="第-2-轮-配置方案" tabindex="-1">第 2 轮: 配置方案 <a class="header-anchor" href="#第-2-轮-配置方案" aria-label="Permalink to &quot;第 2 轮: 配置方案&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>基于分析,请给出配置方案,不要写代码</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>【方案内容】</span></span>
+<span class="line"><span>1. 具体的配置修改</span></span>
+<span class="line"><span>2. 依赖安装命令 (如需要)</span></span>
+<span class="line"><span>3. 配置项说明</span></span>
+<span class="line"><span>4. 注意事项</span></span></code></pre></div><hr><h4 id="第-3-轮-实施变更" tabindex="-1">第 3 轮: 实施变更 <a class="header-anchor" href="#第-3-轮-实施变更" aria-label="Permalink to &quot;第 3 轮: 实施变更&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>采用方案,开始配置变更</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>先安装依赖 (如需要)</span></span>
+<span class="line"><span>然后修改配置文件</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>@docs/.vitepress/config.ts</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>[具体配置修改指令]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>直接修改</span></span></code></pre></div><hr><h4 id="第-4-轮-测试验证" tabindex="-1">第 4 轮: 测试验证 <a class="header-anchor" href="#第-4-轮-测试验证" aria-label="Permalink to &quot;第 4 轮: 测试验证&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>配置变更完成</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>请列出验证步骤:</span></span>
+<span class="line"><span>1. 开发服务器启动测试</span></span>
+<span class="line"><span>2. 构建测试</span></span>
+<span class="line"><span>3. 功能验证要点</span></span>
+<span class="line"><span>4. 性能影响检查</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>输出测试清单,不要写代码</span></span></code></pre></div><hr><h3 id="工作流-5-内容迁移" tabindex="-1">工作流 5: 内容迁移 <a class="header-anchor" href="#工作流-5-内容迁移" aria-label="Permalink to &quot;工作流 5: 内容迁移&quot;">​</a></h3><p><strong>适用场景</strong>: 从其他文档系统迁移到 VitePress</p><p><strong>预计轮数</strong>: 6-8 轮</p><p><strong>流程图</strong>:</p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>源分析(1) → 迁移方案(2) → 格式转换(3-5) → 配置更新(6) → 验证(7-8)</span></span></code></pre></div><h4 id="第-1-轮-源分析" tabindex="-1">第 1 轮: 源分析 <a class="header-anchor" href="#第-1-轮-源分析" aria-label="Permalink to &quot;第 1 轮: 源分析&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>需要将文档从 [源系统] 迁移到 VitePress</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>【源文档信息】</span></span>
+<span class="line"><span>- 文档数量: [数量]</span></span>
+<span class="line"><span>- 文档格式: [Markdown/其他]</span></span>
+<span class="line"><span>- 目录结构: [描述]</span></span>
+<span class="line"><span>- 特殊语法: [如有]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>【示例文档】</span></span>
+<span class="line"><span>[粘贴或引用示例]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>请分析:</span></span>
+<span class="line"><span>1. 源格式与 VitePress 的差异</span></span>
+<span class="line"><span>2. 需要转换的内容类型</span></span>
+<span class="line"><span>3. 迁移难点</span></span>
+<span class="line"><span>4. 建议的迁移策略</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>不要写代码</span></span></code></pre></div><hr><h4 id="第-2-轮-迁移方案" tabindex="-1">第 2 轮: 迁移方案 <a class="header-anchor" href="#第-2-轮-迁移方案" aria-label="Permalink to &quot;第 2 轮: 迁移方案&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>基于分析,制定迁移方案,不要写代码</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>【方案内容】</span></span>
+<span class="line"><span>1. 目录结构映射</span></span>
+<span class="line"><span>2. 格式转换规则</span></span>
+<span class="line"><span>3. 特殊语法处理</span></span>
+<span class="line"><span>4. 配置生成策略</span></span>
+<span class="line"><span>5. 分批迁移计划</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>请详细说明每个环节</span></span></code></pre></div><hr><h4 id="第-3-5-轮-格式转换" tabindex="-1">第 3-5 轮: 格式转换 <a class="header-anchor" href="#第-3-5-轮-格式转换" aria-label="Permalink to &quot;第 3-5 轮: 格式转换&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span># 第 3 轮</span></span>
+<span class="line"><span>采用方案,开始迁移</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>第一批: [文档范围]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>要求:</span></span>
+<span class="line"><span>- 转换为 VitePress Markdown 格式</span></span>
+<span class="line"><span>- 添加必要的 frontmatter</span></span>
+<span class="line"><span>- 保持目录结构</span></span>
+<span class="line"><span>- 每批完成后暂停</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>开始第一批</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span># 第 4-5 轮</span></span>
+<span class="line"><span>第一批正确,继续第二批</span></span>
+<span class="line"><span>...</span></span></code></pre></div><hr><h4 id="第-6-轮-配置更新" tabindex="-1">第 6 轮: 配置更新 <a class="header-anchor" href="#第-6-轮-配置更新" aria-label="Permalink to &quot;第 6 轮: 配置更新&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>所有文档迁移完成</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>现在更新导航和侧边栏配置:</span></span>
+<span class="line"><span>@docs/.vitepress/nav.ts</span></span>
+<span class="line"><span>@docs/.vitepress/sidebar.ts</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>根据迁移后的目录结构生成配置</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>直接修改</span></span></code></pre></div><hr><h4 id="第-7-8-轮-验证" tabindex="-1">第 7-8 轮: 验证 <a class="header-anchor" href="#第-7-8-轮-验证" aria-label="Permalink to &quot;第 7-8 轮: 验证&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span># 第 7 轮</span></span>
+<span class="line"><span>配置更新完成</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>请列出验证要点:</span></span>
+<span class="line"><span>1. 所有页面是否可访问</span></span>
+<span class="line"><span>2. 导航和侧边栏是否正确</span></span>
+<span class="line"><span>3. 链接是否有效</span></span>
+<span class="line"><span>4. 格式是否正常</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>输出验证清单,不要写代码</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span># 第 8 轮</span></span>
+<span class="line"><span>测试发现以下问题:</span></span>
+<span class="line"><span>[问题描述]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>请修复</span></span></code></pre></div><hr><h3 id="工作流-6-性能优化" tabindex="-1">工作流 6: 性能优化 <a class="header-anchor" href="#工作流-6-性能优化" aria-label="Permalink to &quot;工作流 6: 性能优化&quot;">​</a></h3><p><strong>适用场景</strong>: 优化文档站点的构建和访问性能</p><p><strong>预计轮数</strong>: 4 轮</p><p><strong>流程图</strong>:</p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>性能分析(1) → 优化方案(2) → 实施优化(3) → 效果验证(4)</span></span></code></pre></div><h4 id="第-1-轮-性能分析" tabindex="-1">第 1 轮: 性能分析 <a class="header-anchor" href="#第-1-轮-性能分析" aria-label="Permalink to &quot;第 1 轮: 性能分析&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>文档站点存在性能问题</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>【问题描述】</span></span>
+<span class="line"><span>[构建慢/加载慢/其他]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>【当前配置】</span></span>
+<span class="line"><span>@docs/.vitepress/config.ts</span></span>
+<span class="line"><span>@package.json</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>请分析可能的性能瓶颈:</span></span>
+<span class="line"><span>1. 构建配置</span></span>
+<span class="line"><span>2. 文档数量和大小</span></span>
+<span class="line"><span>3. 插件和依赖</span></span>
+<span class="line"><span>4. 资源加载</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>不要写代码</span></span></code></pre></div><hr><h4 id="第-2-轮-优化方案" tabindex="-1">第 2 轮: 优化方案 <a class="header-anchor" href="#第-2-轮-优化方案" aria-label="Permalink to &quot;第 2 轮: 优化方案&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>基于分析,制定优化方案,不要写代码</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>【优化内容】</span></span>
+<span class="line"><span>1. 配置优化</span></span>
+<span class="line"><span>2. 依赖优化</span></span>
+<span class="line"><span>3. 资源优化</span></span>
+<span class="line"><span>4. 构建优化</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>【预期效果】</span></span>
+<span class="line"><span>[具体的性能提升目标]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>请详细说明每项优化的方法</span></span></code></pre></div><hr><h4 id="第-3-轮-实施优化" tabindex="-1">第 3 轮: 实施优化 <a class="header-anchor" href="#第-3-轮-实施优化" aria-label="Permalink to &quot;第 3 轮: 实施优化&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>采用方案,开始优化</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>按以下顺序实施:</span></span>
+<span class="line"><span>1. [优化项 1]</span></span>
+<span class="line"><span>2. [优化项 2]</span></span>
+<span class="line"><span>3. [优化项 3]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>每完成一项暂停,验证效果后继续</span></span></code></pre></div><hr><h4 id="第-4-轮-效果验证" tabindex="-1">第 4 轮: 效果验证 <a class="header-anchor" href="#第-4-轮-效果验证" aria-label="Permalink to &quot;第 4 轮: 效果验证&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>所有优化完成</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>请列出性能对比测试方法:</span></span>
+<span class="line"><span>1. 构建时间对比</span></span>
+<span class="line"><span>2. 页面加载速度对比</span></span>
+<span class="line"><span>3. 资源大小对比</span></span>
+<span class="line"><span>4. 其他性能指标</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>输出测试指南,不要写代码</span></span></code></pre></div><hr><h2 id="第三部分-最佳实践" tabindex="-1">第三部分: 最佳实践 <a class="header-anchor" href="#第三部分-最佳实践" aria-label="Permalink to &quot;第三部分: 最佳实践&quot;">​</a></h2><h3 id="_1-上下文管理" tabindex="-1">1. 上下文管理 <a class="header-anchor" href="#_1-上下文管理" aria-label="Permalink to &quot;1. 上下文管理&quot;">​</a></h3><h4 id="何时清空上下文" tabindex="-1">何时清空上下文 <a class="header-anchor" href="#何时清空上下文" aria-label="Permalink to &quot;何时清空上下文&quot;">​</a></h4><p><strong>应该清空的场景</strong>:</p><ul><li>切换到完全不同的任务</li><li>对话超过 50 轮</li><li>AI 开始混淆上下文</li></ul><p><strong>不应该清空的场景</strong>:</p><ul><li>任务进行中</li><li>仅切换文件</li><li>对结果不满意 (应纠正而非清空)</li></ul><h4 id="清空后快速恢复" tabindex="-1">清空后快速恢复 <a class="header-anchor" href="#清空后快速恢复" aria-label="Permalink to &quot;清空后快速恢复&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>/clear</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>继续 [任务名称]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>【上次进度】</span></span>
+<span class="line"><span>- 已完成: [步骤 1], [步骤 2]</span></span>
+<span class="line"><span>- 当前: [当前步骤]</span></span>
+<span class="line"><span>- 关键决策: [重要决策]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>请先复述关键决策,然后继续</span></span></code></pre></div><hr><h3 id="_2-多文件协作" tabindex="-1">2. 多文件协作 <a class="header-anchor" href="#_2-多文件协作" aria-label="Permalink to &quot;2. 多文件协作&quot;">​</a></h3><h4 id="精确引用" tabindex="-1">精确引用 <a class="header-anchor" href="#精确引用" aria-label="Permalink to &quot;精确引用&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>@docs/.vitepress/config.ts</span></span>
+<span class="line"><span>@docs/.vitepress/sidebar.ts</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>分析配置文件的关联关系,不要写代码</span></span></code></pre></div><p><strong>注意</strong>:</p><ul><li>一次不超过 5 个文件</li><li>大文件加行号限制</li><li>路径必须准确</li></ul><hr><h3 id="_3-文档格式规范" tabindex="-1">3. 文档格式规范 <a class="header-anchor" href="#_3-文档格式规范" aria-label="Permalink to &quot;3. 文档格式规范&quot;">​</a></h3><h4 id="统一格式检查清单" tabindex="-1">统一格式检查清单 <a class="header-anchor" href="#统一格式检查清单" aria-label="Permalink to &quot;统一格式检查清单&quot;">​</a></h4><div class="language-markdown vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">markdown</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span style="--shiki-light:#39ADB5;--shiki-dark:#89DDFF;">-</span><span style="--shiki-light:#90A4AE;--shiki-dark:#BABED8;"> [ ] frontmatter 完整 (layout, title 等)</span></span>
+<span class="line"><span style="--shiki-light:#39ADB5;--shiki-dark:#89DDFF;">-</span><span style="--shiki-light:#90A4AE;--shiki-dark:#BABED8;"> [ ] 标题层级正确 (h1 唯一, h2-h4 嵌套)</span></span>
+<span class="line"><span style="--shiki-light:#39ADB5;--shiki-dark:#89DDFF;">-</span><span style="--shiki-light:#90A4AE;--shiki-dark:#BABED8;"> [ ] 代码块有语言标识</span></span>
+<span class="line"><span style="--shiki-light:#39ADB5;--shiki-dark:#89DDFF;">-</span><span style="--shiki-light:#90A4AE;--shiki-dark:#BABED8;"> [ ] 空行符合规范 (代码块前后有空行)</span></span>
+<span class="line"><span style="--shiki-light:#39ADB5;--shiki-dark:#89DDFF;">-</span><span style="--shiki-light:#90A4AE;--shiki-dark:#BABED8;"> [ ] 链接有效</span></span>
+<span class="line"><span style="--shiki-light:#39ADB5;--shiki-dark:#89DDFF;">-</span><span style="--shiki-light:#90A4AE;--shiki-dark:#BABED8;"> [ ] 中文和英文/数字之间有空格</span></span></code></pre></div><hr><h3 id="_4-分批处理策略" tabindex="-1">4. 分批处理策略 <a class="header-anchor" href="#_4-分批处理策略" aria-label="Permalink to &quot;4. 分批处理策略&quot;">​</a></h3><p><strong>适用场景</strong>: 批量生成或修改文档</p><p><strong>策略</strong>:</p><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span># 第一批</span></span>
+<span class="line"><span>生成/修改以下 5 个文档:</span></span>
+<span class="line"><span>[列表]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>每完成一个暂停让我确认</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span># 确认无误后</span></span>
+<span class="line"><span>ok,继续下一批</span></span></code></pre></div><p><strong>好处</strong>:</p><ul><li>及时发现问题</li><li>避免批量错误</li><li>控制生成节奏</li></ul><hr><h3 id="_5-配置变更安全策略" tabindex="-1">5. 配置变更安全策略 <a class="header-anchor" href="#_5-配置变更安全策略" aria-label="Permalink to &quot;5. 配置变更安全策略&quot;">​</a></h3><h4 id="变更前检查" tabindex="-1">变更前检查 <a class="header-anchor" href="#变更前检查" aria-label="Permalink to &quot;变更前检查&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>@docs/.vitepress/config.ts</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>在修改配置前,请先:</span></span>
+<span class="line"><span>1. 备份当前配置 (说明如何备份)</span></span>
+<span class="line"><span>2. 列出变更影响</span></span>
+<span class="line"><span>3. 说明回滚方法</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>不要写代码</span></span></code></pre></div><h4 id="变更后验证" tabindex="-1">变更后验证 <a class="header-anchor" href="#变更后验证" aria-label="Permalink to &quot;变更后验证&quot;">​</a></h4><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span>配置修改完成</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>执行以下验证:</span></span>
+<span class="line"><span>1. npm run docs:dev (检查开发服务器)</span></span>
+<span class="line"><span>2. npm run docs:build (检查构建)</span></span>
+<span class="line"><span>3. 检查关键页面</span></span>
+<span class="line"><span>4. 检查控制台错误</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>如有错误,提供修复建议</span></span></code></pre></div><hr><h2 id="第四部分-常见问题" tabindex="-1">第四部分: 常见问题 <a class="header-anchor" href="#第四部分-常见问题" aria-label="Permalink to &quot;第四部分: 常见问题&quot;">​</a></h2><h3 id="q1-如何快速添加一批相似的文档" tabindex="-1">Q1: 如何快速添加一批相似的文档? <a class="header-anchor" href="#q1-如何快速添加一批相似的文档" aria-label="Permalink to &quot;Q1: 如何快速添加一批相似的文档?&quot;">​</a></h3><p><strong>回答</strong>: 使用场景 2 (批量生成函数文档)</p><p>关键点:</p><ul><li>准备结构化数据 (JSON/CSV)</li><li>分批生成 (每批 5-10 个)</li><li>统一更新配置</li></ul><hr><h3 id="q2-文档格式不一致怎么办" tabindex="-1">Q2: 文档格式不一致怎么办? <a class="header-anchor" href="#q2-文档格式不一致怎么办" aria-label="Permalink to &quot;Q2: 文档格式不一致怎么办?&quot;">​</a></h3><p><strong>回答</strong>: 使用场景 3 (文档格式标准化)</p><p>步骤:</p><ol><li>确定标准格式参考</li><li>对比并列出差异</li><li>逐个或批量修复</li></ol><hr><h3 id="q3-如何重新组织文档结构" tabindex="-1">Q3: 如何重新组织文档结构? <a class="header-anchor" href="#q3-如何重新组织文档结构" aria-label="Permalink to &quot;Q3: 如何重新组织文档结构?&quot;">​</a></h3><p><strong>回答</strong>: 使用场景 4 (导航配置优化)</p><p>注意:</p><ul><li>先分析后设计</li><li>更新导航和侧边栏</li><li>检查链接有效性</li></ul><hr><h3 id="q4-vitepress-配置修改失败怎么办" tabindex="-1">Q4: VitePress 配置修改失败怎么办? <a class="header-anchor" href="#q4-vitepress-配置修改失败怎么办" aria-label="Permalink to &quot;Q4: VitePress 配置修改失败怎么办?&quot;">​</a></h3><p><strong>回答</strong>: 使用工作流 4 (配置变更)</p><p>调试方法:</p><ol><li>检查配置语法</li><li>检查依赖安装</li><li>查看控制台错误</li><li>参考官方文档</li></ol><hr><h3 id="q5-如何提升构建和访问速度" tabindex="-1">Q5: 如何提升构建和访问速度? <a class="header-anchor" href="#q5-如何提升构建和访问速度" aria-label="Permalink to &quot;Q5: 如何提升构建和访问速度?&quot;">​</a></h3><p><strong>回答</strong>: 使用工作流 6 (性能优化)</p><p>常见优化:</p><ul><li>减少不必要的插件</li><li>优化图片资源</li><li>使用构建缓存</li><li>启用代码分割</li></ul><hr><h2 id="第五部分-附录" tabindex="-1">第五部分: 附录 <a class="header-anchor" href="#第五部分-附录" aria-label="Permalink to &quot;第五部分: 附录&quot;">​</a></h2><h3 id="常用命令速查" tabindex="-1">常用命令速查 <a class="header-anchor" href="#常用命令速查" aria-label="Permalink to &quot;常用命令速查&quot;">​</a></h3><div class="language-bash vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">bash</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span style="--shiki-light:#90A4AE;--shiki-light-font-style:italic;--shiki-dark:#676E95;--shiki-dark-font-style:italic;"># 开发服务器</span></span>
+<span class="line"><span style="--shiki-light:#E2931D;--shiki-dark:#FFCB6B;">npm</span><span style="--shiki-light:#91B859;--shiki-dark:#C3E88D;"> run</span><span style="--shiki-light:#91B859;--shiki-dark:#C3E88D;"> docs:dev</span></span>
+<span class="line"><span style="--shiki-light:#E2931D;--shiki-dark:#FFCB6B;">npm</span><span style="--shiki-light:#91B859;--shiki-dark:#C3E88D;"> run</span><span style="--shiki-light:#91B859;--shiki-dark:#C3E88D;"> dev:vite</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#90A4AE;--shiki-light-font-style:italic;--shiki-dark:#676E95;--shiki-dark-font-style:italic;"># 构建</span></span>
+<span class="line"><span style="--shiki-light:#E2931D;--shiki-dark:#FFCB6B;">npm</span><span style="--shiki-light:#91B859;--shiki-dark:#C3E88D;"> run</span><span style="--shiki-light:#91B859;--shiki-dark:#C3E88D;"> docs:build</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#90A4AE;--shiki-light-font-style:italic;--shiki-dark:#676E95;--shiki-dark-font-style:italic;"># 预览构建结果</span></span>
+<span class="line"><span style="--shiki-light:#E2931D;--shiki-dark:#FFCB6B;">npm</span><span style="--shiki-light:#91B859;--shiki-dark:#C3E88D;"> run</span><span style="--shiki-light:#91B859;--shiki-dark:#C3E88D;"> docs:preview</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#90A4AE;--shiki-light-font-style:italic;--shiki-dark:#676E95;--shiki-dark-font-style:italic;"># 依赖安装</span></span>
+<span class="line"><span style="--shiki-light:#E2931D;--shiki-dark:#FFCB6B;">npm</span><span style="--shiki-light:#91B859;--shiki-dark:#C3E88D;"> install</span><span style="--shiki-light:#90A4AE;--shiki-dark:#BABED8;"> [package-name]</span></span></code></pre></div><hr><h3 id="文件路径速查" tabindex="-1">文件路径速查 <a class="header-anchor" href="#文件路径速查" aria-label="Permalink to &quot;文件路径速查&quot;">​</a></h3><table tabindex="0"><thead><tr><th>类型</th><th>路径</th></tr></thead><tbody><tr><td>配置文件</td><td><code>docs/.vitepress/config.ts</code></td></tr><tr><td>导航配置</td><td><code>docs/.vitepress/nav.ts</code></td></tr><tr><td>侧边栏配置</td><td><code>docs/.vitepress/sidebar.ts</code></td></tr><tr><td>主题配置</td><td><code>docs/.vitepress/theme/index.ts</code></td></tr><tr><td>自定义样式</td><td><code>docs/.vitepress/theme/style.css</code></td></tr><tr><td>PostgreSQL 文档</td><td><code>docs/database/postgreSQL/ref/*.md</code></td></tr><tr><td>CSS 文档</td><td><code>docs/vue/css/attr/*.md</code></td></tr><tr><td>TypeScript 文档</td><td><code>docs/vue/typescript/*.md</code></td></tr><tr><td>AI 文档</td><td><code>docs/AI/*.md</code></td></tr></tbody></table><hr><h3 id="检查清单模板" tabindex="-1">检查清单模板 <a class="header-anchor" href="#检查清单模板" aria-label="Permalink to &quot;检查清单模板&quot;">​</a></h3><h4 id="文档添加检查清单" tabindex="-1">文档添加检查清单 <a class="header-anchor" href="#文档添加检查清单" aria-label="Permalink to &quot;文档添加检查清单&quot;">​</a></h4><div class="language-markdown vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">markdown</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span style="--shiki-light:#39ADB5;--shiki-dark:#89DDFF;">-</span><span style="--shiki-light:#90A4AE;--shiki-dark:#BABED8;"> [ ] 文档内容完整</span></span>
+<span class="line"><span style="--shiki-light:#39ADB5;--shiki-dark:#89DDFF;">-</span><span style="--shiki-light:#90A4AE;--shiki-dark:#BABED8;"> [ ] 格式符合规范</span></span>
+<span class="line"><span style="--shiki-light:#39ADB5;--shiki-dark:#89DDFF;">-</span><span style="--shiki-light:#90A4AE;--shiki-dark:#BABED8;"> [ ] frontmatter 正确</span></span>
+<span class="line"><span style="--shiki-light:#39ADB5;--shiki-dark:#89DDFF;">-</span><span style="--shiki-light:#90A4AE;--shiki-dark:#BABED8;"> [ ] 代码示例有效</span></span>
+<span class="line"><span style="--shiki-light:#39ADB5;--shiki-dark:#89DDFF;">-</span><span style="--shiki-light:#90A4AE;--shiki-dark:#BABED8;"> [ ] 侧边栏已更新</span></span>
+<span class="line"><span style="--shiki-light:#39ADB5;--shiki-dark:#89DDFF;">-</span><span style="--shiki-light:#90A4AE;--shiki-dark:#BABED8;"> [ ] 链接有效</span></span>
+<span class="line"><span style="--shiki-light:#39ADB5;--shiki-dark:#89DDFF;">-</span><span style="--shiki-light:#90A4AE;--shiki-dark:#BABED8;"> [ ] 本地预览正常</span></span></code></pre></div><h4 id="配置变更检查清单" tabindex="-1">配置变更检查清单 <a class="header-anchor" href="#配置变更检查清单" aria-label="Permalink to &quot;配置变更检查清单&quot;">​</a></h4><div class="language-markdown vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">markdown</span><pre class="shiki shiki-themes material-theme-lighter material-theme-palenight vp-code" tabindex="0"><code><span class="line"><span style="--shiki-light:#39ADB5;--shiki-dark:#89DDFF;">-</span><span style="--shiki-light:#90A4AE;--shiki-dark:#BABED8;"> [ ] 配置语法正确</span></span>
+<span class="line"><span style="--shiki-light:#39ADB5;--shiki-dark:#89DDFF;">-</span><span style="--shiki-light:#90A4AE;--shiki-dark:#BABED8;"> [ ] 依赖已安装</span></span>
+<span class="line"><span style="--shiki-light:#39ADB5;--shiki-dark:#89DDFF;">-</span><span style="--shiki-light:#90A4AE;--shiki-dark:#BABED8;"> [ ] 开发服务器正常</span></span>
+<span class="line"><span style="--shiki-light:#39ADB5;--shiki-dark:#89DDFF;">-</span><span style="--shiki-light:#90A4AE;--shiki-dark:#BABED8;"> [ ] 构建成功</span></span>
+<span class="line"><span style="--shiki-light:#39ADB5;--shiki-dark:#89DDFF;">-</span><span style="--shiki-light:#90A4AE;--shiki-dark:#BABED8;"> [ ] 功能验证通过</span></span>
+<span class="line"><span style="--shiki-light:#39ADB5;--shiki-dark:#89DDFF;">-</span><span style="--shiki-light:#90A4AE;--shiki-dark:#BABED8;"> [ ] 无控制台错误</span></span>
+<span class="line"><span style="--shiki-light:#39ADB5;--shiki-dark:#89DDFF;">-</span><span style="--shiki-light:#90A4AE;--shiki-dark:#BABED8;"> [ ] 性能无明显下降</span></span></code></pre></div><hr><h2 id="使用建议" tabindex="-1">使用建议 <a class="header-anchor" href="#使用建议" aria-label="Permalink to &quot;使用建议&quot;">​</a></h2><ol><li><p><strong>新手入门</strong></p><ul><li>阅读&quot;快速开始&quot;部分</li><li>跟随场景 1 实践</li><li>熟悉基本流程</li></ul></li><li><p><strong>日常使用</strong></p><ul><li>根据需求查找对应场景</li><li>跟随流程逐步操作</li><li>灵活调整细节</li></ul></li><li><p><strong>复杂任务</strong></p><ul><li>使用通用工作流程</li><li>充分讨论方案</li><li>分步实施验证</li></ul></li><li><p><strong>遇到问题</strong></p><ul><li>查阅常见问题部分</li><li>参考最佳实践</li><li>必要时使用 ClaudeCode.md 中的基础模板</li></ul></li></ol><hr><p><strong>版本</strong>: v1.0 <strong>最后更新</strong>: 2025-10-22 <strong>适用</strong>: VitePress 文档项目</p>`,307)])])}const m=s(l,[["render",i]]);export{g as __pageData,m as default};
